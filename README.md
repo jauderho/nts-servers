@@ -14,3 +14,6 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |nts.netnod.se|1|Sweden|Netnod|Anycast|
 |sth1.nts.netnod.se|1|Sweden|Netnod||
 |sth1.nts.netnod.se|1|Sweden|Netnod||
+
+## Use this to verify connectivity (h/t [@cadusilva](https://github.com/cadusilva))
+`chronyd -Q -t 3 'server NTP_SERVER_HERE iburst nts maxsamples 1'`
