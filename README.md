@@ -1,13 +1,11 @@
-# ghafiles
+# NTP servers with NTS support
 
-This contains baseline GitHub Actions that may be useful for any new project. 
+This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. Pull requests are welcome to any additional servers. Please adhere to the format.
 
-- Adhere to least privilege principles for workflow permissions
-- Use of commit hashes for pinning GitHub Actions dependencies
-- Use of Dependabot to update commit hashes as necessary
-- Use of OpenSSF's [Security Scorecard](https://github.com/ossf/scorecard) (SCORECARD_TOKEN setup required)
-- Use of Step Security's [Harden Runner](https://github.com/step-security/harden-runner)
-- Codespell
-- Super-Linter
-- Semgrep (SEMGREP_APP_TOKEN setup required)
-- (optional) Sync to GitLab (GITLAB_TOKEN setup required)
+|Hostname|Stratum|Location|Owner|Notes|
+|---|---|---|---|---|
+|time.cloudflare.com|3|All|Cloudflare|Anycast
+||
+|ohio.time.system76.com|2|US|System76||
+|oregon.time.system76.com|2|US|System76||
+|virginia.time.system76.com|2|US|System76||
