@@ -10,7 +10,6 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||
 ||
-|nts.ntp.se|1|Sweden|Netnod|
 |nts.netnod.se|1|Sweden|Netnod|Anycast|
 |sth1.nts.netnod.se|1|Sweden|Netnod||
 |sth1.nts.netnod.se|1|Sweden|Netnod||
