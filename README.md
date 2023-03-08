@@ -17,7 +17,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |paris.time.system76.com|2|France|System76||
 ||
 |ntp3.fau.de|1|Germany|FAU||
-|ntp3.ipv6.fau.de|1|Germany|FAU|IPv6 Only|
+|ntp3.ipv6.fau.de|1|Germany|FAU|IPv6 only|
 |ptbtime1.ptb.de|1|Germany|PTB||
 |ptbtime2.ptb.de|1|Germany|PTB||
 |ptbtime3.ptb.de|1|Germany|PTB||
