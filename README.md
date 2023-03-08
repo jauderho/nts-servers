@@ -7,9 +7,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
 ||
 |a.st1.ntp.br|1|Brazil|ntp.br||
-|b.st1.ntp.br|2|Brazil|ntp.br|Occasionally stratum 1|
+|b.st1.ntp.br|1|Brazil|ntp.br||
 |c.st1.ntp.br|1|Brazil|ntp.br||
-|d.st1.ntp.br|2|Brazil|ntp.br|Occasionally stratum 1|
+|d.st1.ntp.br|1|Brazil|ntp.br||
 |gps.ntp.br|1|Brazil|ntp.br||
 |brazil.time.system76.com|2|Brazil|System76||
 |time.bolha.one|1|Brazil|Cadu Silva||
