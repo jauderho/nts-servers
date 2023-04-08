@@ -41,6 +41,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ohio.time.system76.com|2|US|System76||
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||
+|stratum1.time.cifelli.xyz|1|US|Mike Cifelli||
 |time.cifelli.xyz|2|US|Mike Cifelli||
 |time.txryan.com|2|US|Tanner Ryan||
 
