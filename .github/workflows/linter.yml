@@ -48,7 +48,7 @@ jobs:
       # Run Linter against code base #
       - name: Lint Code Base
         #uses: github/super-linter@b8641364ca9a79b3cf07f3c4c59a82709cd39094 # v4
-        uses: github/super-linter/slim@454ba4482ce2cd0c505bc592e83c06e1e37ade61 # v4
+        uses: github/super-linter/slim@45fc0d88288beee4701c62761281edfee85655d7 # v4
         #uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           VALIDATE_ALL_CODEBASE: false
