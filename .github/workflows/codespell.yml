@@ -41,7 +41,7 @@ jobs:
 
       # Run Linter against code base #
       - name: Codespell
-        uses: codespell-project/actions-codespell@22ff5a2e4b591290baf82d47c9feadac31c65441 # master
+        uses: codespell-project/actions-codespell@94259cd8be02ad2903ba34a22d9c13de21a74461 # master
         with:
           check_filenames: true
           ignore_words_file: .codespellignore
