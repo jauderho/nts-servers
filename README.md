@@ -31,8 +31,16 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntpmon.dcs1.biz|1|Singapore|Sanjeev Gupta||
 ||
 |nts.netnod.se|1|Sweden|Netnod|Anycast|
+|gbg1.nts.netnod.se|1|Sweden|Netnod|For users close to Göteborg|
+|gbg2.nts.netnod.se|1|Sweden|Netnod|For users close to Göteborg|
+|lul1.nts.netnod.se|1|Sweden|Netnod|For users close to Luleå|
+|lul2.nts.netnod.se|1|Sweden|Netnod|For users close to Luleå|
+|mmo1.nts.netnod.se|1|Sweden|Netnod|For users close to Malmö|
+|mmo2.nts.netnod.se|1|Sweden|Netnod|For users close to Malmö|
 |sth1.nts.netnod.se|1|Sweden|Netnod|For users close to Stockholm|
-|sth1.nts.netnod.se|1|Sweden|Netnod|For users close to Stockholm|
+|sth2.nts.netnod.se|1|Sweden|Netnod|For users close to Stockholm|
+|svl1.nts.netnod.se|1|Sweden|Netnod|For users close to Sundsvall|
+|svl2.nts.netnod.se|1|Sweden|Netnod|For users close to Sundsvall|
 ||
 |ntp.3eck.net|2|Switzerland|Adrian Zaugg||
 |ntp.trifence.ch|2|Switzerland|Marcel Waldvogel||
