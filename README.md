@@ -15,6 +15,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |time.bolha.one|1|Brazil|Cadu Silva||
 ||
 |paris.time.system76.com|2|France|System76||
+|ntp.viarouge.net|2|France|Hubert Viarouge|see http://ntp.viarouge.net|
 ||
 |ntp3.fau.de|1|Germany|FAU||
 |ntp3.ipv6.fau.de|1|Germany|FAU|IPv6 only|
