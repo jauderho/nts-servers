@@ -1,6 +1,8 @@
 # NTP servers with NTS support
 
-This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. Pull requests are welcome to add new sources. Please adhere to the format.
+This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. 
+
+Pull requests are welcome to add new sources. Each PR should include any proposed changes to README.md and chrony.conf. Please adhere to the format.
 
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
