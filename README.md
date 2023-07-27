@@ -4,6 +4,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 
 Pull requests are welcome to add new sources (signed commits are preferred). Each PR should include any proposed changes to README.md and chrony.conf. Please adhere to the format.
 
+Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available. 
+
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
