@@ -23,6 +23,7 @@ Pull requests are welcome to add new sources. Each PR should include any propose
 |ptbtime1.ptb.de|1|Germany|PTB||
 |ptbtime2.ptb.de|1|Germany|PTB||
 |ptbtime3.ptb.de|1|Germany|PTB||
+|ptbtime4.ptb.de|1|Germany|PTB||
 |www.jabber-germany.de|2|Germany|Jörg Morbitzer||
 |www.masters-of-cloud.de|2|Germany|Jörg Morbitzer||
 |ntp-by.dynu.net|1|Germany|Michael Byczkowski||
