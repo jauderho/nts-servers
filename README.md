@@ -33,7 +33,7 @@ Generally, virtualized systems do not make for good time sources as there is too
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
 ||
-|ntpmon.dcs1.biz|1|Singapore|Sanjeev Gupta||
+|ntpmon.dcs1.biz|1|Singapore|Sanjeev Gupta|IPv4 and IPv6|
 ||
 |nts.netnod.se|1|Sweden|Netnod|Anycast|
 |gbg1.nts.netnod.se|1|Sweden|Netnod|For users close to Göteborg|
