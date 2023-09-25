@@ -62,3 +62,12 @@ Generally, virtualized systems do not make for good time sources as there is too
 
 ## Use this to verify connectivity (h/t [@cadusilva](https://github.com/cadusilva))
 `chronyd -Q -t 3 'server NTP_SERVER_HERE iburst nts maxsamples 1'`
+
+## Star History
+<a href="https://star-history.com/#jauderho/nts-servers&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jauderho/nts-servers&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=jauderho/nts-servers&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=jauderho/nts-servers&type=Date" />
+  </picture>
+</a>
