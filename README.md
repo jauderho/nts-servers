@@ -29,6 +29,7 @@ Generally, virtualized systems do not make for good time sources as there is too
 |www.jabber-germany.de|2|Germany|Jörg Morbitzer||
 |www.masters-of-cloud.de|2|Germany|Jörg Morbitzer||
 |ntp-by.dynu.net|1|Germany|Michael Byczkowski||
+|[nts.ntstime.de](https://nts.ntstime.de/)|2|Germany|Patrick Jansen||
 ||
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
