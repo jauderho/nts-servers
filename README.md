@@ -60,9 +60,14 @@ Generally, virtualized systems do not make for good time sources as there is too
 |time.cifelli.xyz|2|US|Mike Cifelli||
 |time.txryan.com|2|US|Tanner Ryan||
 
+The following servers are known to be virtualized and may be less accurate. YMMV.
+
+|Hostname|Stratum|Location|Owner|Notes|
+|---|:---:|---|---|---|
+|[ntp.viarouge.net](http://ntp.viarouge.net)|2|France|Hubert Viarouge||
 
 ## Use this to verify connectivity (h/t [@cadusilva](https://github.com/cadusilva))
-`chronyd -Q -t 3 'server NTP_SERVER_HERE iburst nts maxsamples 1'`
+`chronyd -Q -t 3 'server <NTP_SERVER_HERE> iburst nts maxsamples 1'`
 
 ## Star History
 <a href="https://star-history.com/#jauderho/nts-servers&Timeline">
