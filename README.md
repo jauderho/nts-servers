@@ -30,7 +30,7 @@ Pull requests are welcome to add new sources (signed commits are preferred). Eac
 |www.jabber-germany.de|2|Germany|Jörg Morbitzer||
 |www.masters-of-cloud.de|2|Germany|Jörg Morbitzer||
 |ntp-by.dynu.net|1|Germany|Michael Byczkowski||
-|[nts.ntstime.de](https://nts.ntstime.de/)|2|Germany|Patrick Jansen||
+|[nts.ntstime.de](https://ntstime.de)|2|Germany|Patrick Jansen||
 ||
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
