@@ -19,6 +19,8 @@ Pull requests are welcome to add new sources (signed commits are preferred). Eac
 |brazil.time.system76.com|2|Brazil|System76||
 |time.bolha.one|1|Brazil|Cadu Silva||
 ||
+|ntp.miuku.net|2|Finland|miuku.net||
+||
 |paris.time.system76.com|2|France|System76||
 ||
 |ntp3.fau.de|1|Germany|FAU||
