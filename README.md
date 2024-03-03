@@ -4,6 +4,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 
 ## Contribute
 - Pull requests are welcome to add new sources (signed commits are preferred)
+- PR will not be merged until connectivity to server can be verified
+- Please specify if server is virtualized
 - Each PR should include any proposed changes to README.md and chrony.conf. Please adhere to the format.
 
 ## Usage
