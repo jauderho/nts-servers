@@ -1,13 +1,18 @@
 # NTP servers with NTS support
 
-This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. 
+This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread.
 
-Pull requests are welcome to add new sources (signed commits are preferred). Each PR should include any proposed changes to README.md and chrony.conf. Please adhere to the format.
+## Contribute
+- Pull requests are welcome to add new sources (signed commits are preferred)
+- Each PR should include any proposed changes to README.md and chrony.conf. Please adhere to the format.
 
+## Usage
+- There is no endorsement of any particular server. Please carefully vet before usage
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
 - Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available 
 
+## The List
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
