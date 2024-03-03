@@ -10,7 +10,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - There is no endorsement of any particular server. Please carefully vet before usage
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
-- Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available 
+- Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available
+- Verify connectivity using the following command (h/t [@cadusilva](https://github.com/cadusilva))
+  - `chronyd -Q -t 3 'server <NTP_SERVER_HERE> iburst nts maxsamples 1'` 
 
 ## The List
 |Hostname|Stratum|Location|Owner|Notes|
@@ -72,9 +74,6 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |[ntp.viarouge.net](http://ntp.viarouge.net)|2|France|Hubert Viarouge||
-
-## Use this to verify connectivity (h/t [@cadusilva](https://github.com/cadusilva))
-`chronyd -Q -t 3 'server <NTP_SERVER_HERE> iburst nts maxsamples 1'`
 
 ## Star History
 <a href="https://star-history.com/#jauderho/nts-servers&Timeline">
