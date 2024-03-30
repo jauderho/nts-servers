@@ -1,5 +1,7 @@
 # NTP servers with NTS support
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers)
+
 This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread.
 
 ## Contribute
