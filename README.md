@@ -31,6 +31,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |brazil.time.system76.com|2|Brazil|System76||
 |time.bolha.one|1|Brazil|Cadu Silva||
 ||
+|ntp.miuku.net|3|Finland|miuku.net||
+||
 |paris.time.system76.com|2|France|System76||
 ||
 |ntp3.fau.de|1|Germany|FAU||
