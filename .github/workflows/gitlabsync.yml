@@ -12,7 +12,7 @@ permissions: read-all
 
 jobs:
   sync:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     name: Git Repo Sync
     steps:
     - name: Harden Runner
