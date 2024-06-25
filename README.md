@@ -79,6 +79,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |[ntp.viarouge.net](http://ntp.viarouge.net)|2|France|Hubert Viarouge||
+|time.xargs.org|2|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/nts-servers&Timeline">
