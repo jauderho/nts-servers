@@ -14,6 +14,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - There is no endorsement of any particular server. Please carefully vet before usage
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
+- It is not possible to mix and match NTP and NTS at this time. Only NTS servers should be specified as the NTP entries will not be used
 - Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available
 - Verify connectivity using the following command (h/t [@cadusilva](https://github.com/cadusilva))
   - `chronyd -Q -t 3 'server <NTP_SERVER_HERE> iburst nts maxsamples 1'` 

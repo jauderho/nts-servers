@@ -4,230 +4,280 @@ servers:
     location: All
     owner: Cloudflare
     notes: Anycast
+    vm: false
 
   - hostname: a.st1.ntp.br
     stratum: 1
     location: Brazil
     owner: ntp.br
+    vm: false
 
   - hostname: b.st1.ntp.br
     stratum: 1
     location: Brazil
     owner: ntp.br
+    vm: false
 
   - hostname: c.st1.ntp.br
     stratum: 1
     location: Brazil
     owner: ntp.br
+    vm: false
 
   - hostname: d.st1.ntp.br
     stratum: 1
     location: Brazil
     owner: ntp.br
+    vm: false
 
   - hostname: gps.ntp.br
     stratum: 1
     location: Brazil
     owner: ntp.br
+    vm: false
 
   - hostname: brazil.time.system76.com
     stratum: 2
     location: Brazil
     owner: System76
+    vm: false
 
   - hostname: time.bolha.one
     stratum: 1
     location: Brazil
     owner: Cadu Silva
+    vm: false
 
   - hostname: ntp.miuku.net
     stratum: 3
     location: Finland
     owner: miuku.net
+    vm: false
 
   - hostname: paris.time.system76.com
     stratum: 2
     location: France
     owner: System76
+    vm: false
 
   - hostname: ntp3.fau.de
     stratum: 1
     location: Germany
     owner: FAU
+    vm: false
 
   - hostname: ntp3.ipv6.fau.de
     stratum: 1
     location: Germany
     owner: FAU
     notes: IPv6 only
+    vm: false
 
   - hostname: ptbtime1.ptb.de
     stratum: 1
     location: Germany
     owner: PTB
+    vm: false
 
   - hostname: ptbtime2.ptb.de
     stratum: 1
     location: Germany
     owner: PTB
+    vm: false
 
   - hostname: ptbtime3.ptb.de
     stratum: 1
     location: Germany
     owner: PTB
+    vm: false
 
   - hostname: ptbtime4.ptb.de
     stratum: 1
     location: Germany
     owner: PTB
+    vm: false
 
   - hostname: www.jabber-germany.de
     stratum: 2
     location: Germany
     owner: Jörg Morbitzer
+    vm: false
 
   - hostname: www.masters-of-cloud.de
     stratum: 2
     location: Germany
     owner: Jörg Morbitzer
+    vm: false
 
   - hostname: ntp.nanosrvr.cloud
     stratum: 1
     location: Germany
     owner: Michael Byczkowski
+    vm: false
 
   - hostname: ntppool1.time.nl
     stratum: 1
     location: Netherlands
     owner: TimeNL
+    vm: false
 
   - hostname: ntppool2.time.nl
     stratum: 1
     location: Netherlands
     owner: TimeNL
+    vm: false
 
   - hostname: ntpmon.dcs1.biz
     stratum: 1
     location: Singapore
     owner: Sanjeev Gupta
+    vm: false
 
   - hostname: nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: Anycast
+    vm: false
 
   - hostname: gbg1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Göteborg
+    vm: false
 
   - hostname: gbg2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Göteborg
+    vm: false
 
   - hostname: lul1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Luleå
+    vm: false
 
   - hostname: lul2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Luleå
+    vm: false
 
   - hostname: mmo1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Malmö
+    vm: false
 
   - hostname: mmo2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Malmö
+    vm: false
 
   - hostname: sth1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Stockholm
+    vm: false
 
   - hostname: sth2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Stockholm
+    vm: false
 
   - hostname: svl1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Sundsvall
+    vm: false
 
   - hostname: svl2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
     notes: For users close to Sundsvall
+    vm: false
 
   - hostname: ntp.3eck.net
     stratum: 2
     location: Switzerland
     owner: Adrian Zaugg
+    vm: false
 
   - hostname: ntp.trifence.ch
     stratum: 2
     location: Switzerland
     owner: Marcel Waldvogel
+    vm: false
 
   - hostname: ntp.zeitgitter.net
     stratum: 2
     location: Switzerland
     owner: Marcel Waldvogel
+    vm: false
 
   - hostname: time.signorini.ch
     stratum: 1
     location: Switzerland
     owner: Attilio Signorini
+    vm: false
 
   - hostname: ohio.time.system76.com
     stratum: 2
     location: US
     owner: System76
+    vm: false
 
   - hostname: oregon.time.system76.com
     stratum: 2
     location: US
     owner: System76
+    vm: false
 
   - hostname: virginia.time.system76.com
     stratum: 2
     location: US
     owner: System76
+    vm: false
 
   - hostname: stratum1.time.cifelli.xyz
     stratum: 1
     location: US
     owner: Mike Cifelli
+    vm: false
 
   - hostname: time.cifelli.xyz
     stratum: 2
     location: US
     owner: Mike Cifelli
+    vm: false
 
   - hostname: time.txryan.com
     stratum: 2
     location: US
     owner: Tanner Ryan
+    vm: false
+
+  - hostname: "[ntp.viarouge.net](http://ntp.viarouge.net)"
+    stratum: 2
+    location: France
+    owner: Vincent Viarouge
+    vm: true
 
   - hostname: time.xargs.org
     stratum: 2
     location: US
-    owner: Michael Driscoll
+    owner: Unknown
+    vm: true
