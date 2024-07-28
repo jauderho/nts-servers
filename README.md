@@ -26,6 +26,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |---|:---:|---|---|---|
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
 ||
+|[nts.teambelgium.net](https://nts.teambelgium.net)|1|Belgium|Team Belgium||
+||
 |a.st1.ntp.br|1|Brazil|ntp.br||
 |b.st1.ntp.br|1|Brazil|ntp.br||
 |c.st1.ntp.br|1|Brazil|ntp.br||
