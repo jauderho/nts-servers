@@ -273,11 +273,12 @@ servers:
   - hostname: "[ntp.viarouge.net](http://ntp.viarouge.net)"
     stratum: 2
     location: France
-    owner: Vincent Viarouge
+    owner: Hubert Viarouge
     vm: true
 
   - hostname: time.xargs.org
     stratum: 2
     location: US
-    owner: Unknown
+    owner: Michael Driscoll
+    notes: IPv4 and IPv6
     vm: true
