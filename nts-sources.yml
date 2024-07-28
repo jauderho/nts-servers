@@ -6,7 +6,7 @@ servers:
     notes: Anycast
     vm: false
 
-  - hostname: "[nts.teambelgium.net](https://nts.teambelgium.net)"
+  - hostname: "[nts.teambelgium.net](https://ntp.teambelgium.net)"
     stratum: 1
     location: Belgium
     owner: Team Belgium
