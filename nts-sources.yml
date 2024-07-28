@@ -1,5 +1,5 @@
 servers:
-  - hostname: time.cloudflare.com
+  - hostname: "[time.cloudflare.com](https://time.cloudflare.com)"
     stratum: 3
     location: All
     owner: Cloudflare
@@ -48,13 +48,13 @@ servers:
     owner: System76
     vm: false
 
-  - hostname: time.bolha.one
+  - hostname: "[time.bolha.one](https://time.bolha.one)"
     stratum: 1
     location: Brazil
     owner: Cadu Silva
     vm: false
 
-  - hostname: ntp.miuku.net
+  - hostname: "[ntp.miuku.net](https://ntp.miuku.net)"
     stratum: 3
     location: Finland
     owner: miuku.net
@@ -139,7 +139,7 @@ servers:
     owner: Sanjeev Gupta
     vm: false
 
-  - hostname: nts.netnod.se
+  - hostname: "[nts.netnod.se](https://nts.netnod.se)"
     stratum: 1
     location: Sweden
     owner: Netnod
@@ -216,19 +216,19 @@ servers:
     notes: For users close to Sundsvall
     vm: false
 
-  - hostname: ntp.3eck.net
+  - hostname: "[ntp.3eck.net](https://ntp.3eck.net)"
     stratum: 2
     location: Switzerland
     owner: Adrian Zaugg
     vm: false
 
-  - hostname: ntp.trifence.ch
+  - hostname: "[ntp.trifence.ch](https://ntp.trifence.ch)"
     stratum: 2
     location: Switzerland
     owner: Marcel Waldvogel
     vm: false
 
-  - hostname: ntp.zeitgitter.net
+  - hostname: "[ntp.zeitgitter.net](https://ntp.zeitgitter.net)"
     stratum: 2
     location: Switzerland
     owner: Marcel Waldvogel
@@ -258,19 +258,19 @@ servers:
     owner: System76
     vm: false
 
-  - hostname: stratum1.time.cifelli.xyz
+  - hostname: "[stratum1.time.cifelli.xyz](http://stratum1.time.cifelli.xyz)"
     stratum: 1
     location: US
     owner: Mike Cifelli
     vm: false
 
-  - hostname: time.cifelli.xyz
+  - hostname: "[time.cifelli.xyz](http://time.cifelli.xyz)"
     stratum: 2
     location: US
     owner: Mike Cifelli
     vm: false
 
-  - hostname: time.txryan.com
+  - hostname: "[time.txryan.com](http://time.txryan.com)"
     stratum: 2
     location: US
     owner: Tanner Ryan

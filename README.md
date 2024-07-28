@@ -24,7 +24,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ## The List
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
-|time.cloudflare.com|3|All|Cloudflare|Anycast|
+|[time.cloudflare.com](https://time.cloudflare.com)|3|All|Cloudflare|Anycast|
 ||
 |[nts.teambelgium.net](https://ntp.teambelgium.net)|1|Belgium|Team Belgium||
 ||
@@ -34,9 +34,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |d.st1.ntp.br|1|Brazil|ntp.br||
 |gps.ntp.br|1|Brazil|ntp.br||
 |brazil.time.system76.com|2|Brazil|System76||
-|time.bolha.one|1|Brazil|Cadu Silva||
+|[time.bolha.one](https://time.bolha.one)|1|Brazil|Cadu Silva||
 ||
-|ntp.miuku.net|3|Finland|miuku.net||
+|[ntp.miuku.net](https://ntp.miuku.net)|3|Finland|miuku.net||
 ||
 |paris.time.system76.com|2|France|System76||
 ||
@@ -55,7 +55,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |ntpmon.dcs1.biz|1|Singapore|Sanjeev Gupta||
 ||
-|nts.netnod.se|1|Sweden|Netnod|Anycast|
+|[nts.netnod.se](https://nts.netnod.se)|1|Sweden|Netnod|Anycast|
 |gbg1.nts.netnod.se|1|Sweden|Netnod|For users close to Göteborg|
 |gbg2.nts.netnod.se|1|Sweden|Netnod|For users close to Göteborg|
 |lul1.nts.netnod.se|1|Sweden|Netnod|For users close to Luleå|
@@ -67,17 +67,17 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |svl1.nts.netnod.se|1|Sweden|Netnod|For users close to Sundsvall|
 |svl2.nts.netnod.se|1|Sweden|Netnod|For users close to Sundsvall|
 ||
-|ntp.3eck.net|2|Switzerland|Adrian Zaugg||
-|ntp.trifence.ch|2|Switzerland|Marcel Waldvogel||
-|ntp.zeitgitter.net|2|Switzerland|Marcel Waldvogel||
+|[ntp.3eck.net](https://ntp.3eck.net)|2|Switzerland|Adrian Zaugg||
+|[ntp.trifence.ch](https://ntp.trifence.ch)|2|Switzerland|Marcel Waldvogel||
+|[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||
 |time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
 |ohio.time.system76.com|2|US|System76||
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||
-|stratum1.time.cifelli.xyz|1|US|Mike Cifelli||
-|time.cifelli.xyz|2|US|Mike Cifelli||
-|time.txryan.com|2|US|Tanner Ryan||
+|[stratum1.time.cifelli.xyz](http://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
+|[time.cifelli.xyz](http://time.cifelli.xyz)|2|US|Mike Cifelli||
+|[time.txryan.com](http://time.txryan.com)|2|US|Tanner Ryan||
 
 The following servers are known to be virtualized and may be less accurate. YMMV.
 
