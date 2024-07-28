@@ -8,7 +8,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - Pull requests are welcome to add new sources (signed commits are preferred)
 - PR will not be merged until connectivity to server can be verified
 - Please specify if server is virtualized
-- Each PR should include any proposed changes to README.md and chrony.conf. Please adhere to the format.
+- You can now update `nts-sources.yml` to modify both the `README.md` and `chrony.conf`
+  - `./scripts/ntpServerConverter.py nts-sources.yml`
+  - `git diff origin README.md chrony.conf` to verify that you have a clean update before submitting a PR
 
 ## Usage
 - There is no endorsement of any particular server. Please carefully vet before usage
