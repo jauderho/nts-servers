@@ -5,7 +5,7 @@
 This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread.
 
 ## Contribute
-- Pull requests are welcome to add new sources (signed commits are preferred)
+- Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
 - PR will not be merged until connectivity to server can be verified
 - Please specify if server is virtualized
 - You can now update `nts-sources.yml` to modify both the `README.md` and `chrony.conf`
