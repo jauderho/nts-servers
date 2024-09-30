@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# h/t https://github.com/cadusilva
+#
 
 # Check if argument is passed
 if [ -z "$1" ]; then
