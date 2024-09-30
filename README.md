@@ -72,6 +72,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||
 |time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
+|ntp2.glypnod.com|2|UK|Hal Murray|London|
+||
+|ntp1.glypnod.com|2|US|Hal Murray|San Francisco|
 |ohio.time.system76.com|2|US|System76||
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||

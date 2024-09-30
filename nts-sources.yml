@@ -240,6 +240,20 @@ servers:
     owner: Attilio Signorini
     vm: false
 
+  - hostname: "ntp2.glypnod.com"
+    stratum: 2
+    location: UK
+    owner: Hal Murray
+    notes: London
+    vm: false
+
+  - hostname: "ntp1.glypnod.com"
+    stratum: 2
+    location: US
+    owner: Hal Murray
+    notes: San Francisco
+    vm: false
+
   - hostname: ohio.time.system76.com
     stratum: 2
     location: US
