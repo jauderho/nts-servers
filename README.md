@@ -9,8 +9,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - PR will not be merged until connectivity to server can be verified
 - Please specify if server is virtualized
 - You can now update `nts-sources.yml` to modify both the `README.md` and `chrony.conf`
-  - `./scripts/ntpServerConverter.py nts-sources.yml`
-  - `git diff origin README.md chrony.conf` to verify that you have a clean update before submitting a PR
+  - Run `./scripts/ntpServerConverter.py nts-sources.yml`
+  - Use `git diff origin README.md chrony.conf` to verify that you have a clean update before submitting a PR
 
 ## Usage
 - There is no endorsement of any particular server. Please carefully vet before usage
@@ -18,8 +18,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
 - It is not possible to mix and match NTP and NTS at this time. Only NTS servers should be specified as the NTP entries will not be used
 - Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available
-- Verify connectivity using the following command (h/t [@cadusilva](https://github.com/cadusilva))
-  - `chronyd -Q -t 3 'server <NTP_SERVER_HERE> iburst nts maxsamples 1'` 
+- Verify NTS server connectivity using the following command
+  - `./scripts/ntsCheck.sh <NTS_SERVER_NAME>` 
 
 ## The List
 |Hostname|Stratum|Location|Owner|Notes|
