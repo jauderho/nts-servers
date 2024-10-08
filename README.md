@@ -48,7 +48,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ptbtime4.ptb.de|1|Germany|PTB||
 |www.jabber-germany.de|2|Germany|Jörg Morbitzer||
 |www.masters-of-cloud.de|2|Germany|Jörg Morbitzer||
-|ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski||
+|ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski||IPv4 & IPv6
 ||
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
