@@ -48,7 +48,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ptbtime4.ptb.de|1|Germany|PTB||
 |www.jabber-germany.de|2|Germany|Jörg Morbitzer||
 |www.masters-of-cloud.de|2|Germany|Jörg Morbitzer||
-|ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski||
+|ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski|IPv4 and IPv6|
 ||
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
@@ -78,9 +78,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ohio.time.system76.com|2|US|System76||
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||
-|[stratum1.time.cifelli.xyz](http://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
-|[time.cifelli.xyz](http://time.cifelli.xyz)|2|US|Mike Cifelli||
-|[time.txryan.com](http://time.txryan.com)|2|US|Tanner Ryan||
+|[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
+|[time.cifelli.xyz](https://time.cifelli.xyz)|2|US|Mike Cifelli||
+|[time.txryan.com](https://time.txryan.com)|2|US|Tanner Ryan||
 
 The following servers are known to be virtualized and may be less accurate. YMMV.
 
