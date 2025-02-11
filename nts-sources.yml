@@ -295,7 +295,6 @@ servers:
     stratum: 2
     location: France
     owner: Hubert Viarouge
-    notes: EXPIRED CERT
     vm: true
 
   - hostname: time.xargs.org
