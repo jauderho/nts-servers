@@ -1,6 +1,8 @@
 # NTP servers with NTS support
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers) 
+
+WARNING: There is no endorsement of any server included in this list. Please carefully vet before usage
 
 This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread.
 
@@ -13,7 +15,6 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
   - Use `git diff origin README.md chrony.conf` to verify that you have a clean update before submitting a PR
 
 ## Usage
-- There is no endorsement of any particular server. Please carefully vet before usage
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
 - It is not possible to mix and match NTP and NTS at this time. Only NTS servers should be specified as the NTP entries will not be used
