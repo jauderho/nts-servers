@@ -54,6 +54,12 @@ servers:
     owner: Cadu Silva
     vm: false
 
+  - hostname: "[time.web-clock.ca](https://time.web-clock.ca)"
+    stratum: 1
+    location: Canada
+    owner: Community
+    vm: false
+
   - hostname: "[ntp.miuku.net](https://ntp.miuku.net)"
     stratum: 3
     location: Finland
