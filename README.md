@@ -13,6 +13,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - You can now update `nts-sources.yml` to modify both the `README.md` and `chrony.conf`
   - Run `./scripts/ntpServerConverter.py nts-sources.yml`
   - Use `git diff origin README.md chrony.conf` to verify that you have a clean update before submitting a PR
+- AI generated documentation: https://deepwiki.com/jauderho/nts-servers
 
 ## Usage
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
