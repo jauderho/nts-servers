@@ -304,14 +304,14 @@ servers:
     stratum: 1
     location: UK
     owner: Terry Burton
-    notes: IPv4 and IPv6; GPS PPS refclock
+    notes: IPv4 and IPv6
     vm: false
 
   - hostname: "ntp2.dmz.terryburton.co.uk"
     stratum: 1
     location: UK
     owner: Terry Burton
-    notes: IPv4 and IPv6; GPS PPS refclock
+    notes: IPv4 and IPv6
     vm: false
 
   - hostname: "ntp1.glypnod.com"

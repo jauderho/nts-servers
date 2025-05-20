@@ -85,8 +85,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
 |ntp2.glypnod.com|2|UK|Hal Murray|London|
-|ntp1.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6; GPS PPS refclock|
-|ntp2.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6; GPS PPS refclock|
+|ntp1.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
+|ntp2.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
 ||
 |ntp1.glypnod.com|2|US|Hal Murray|San Francisco|
 |ohio.time.system76.com|2|US|System76||
