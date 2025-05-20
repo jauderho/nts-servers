@@ -300,6 +300,20 @@ servers:
     notes: London
     vm: false
 
+  - hostname: "ntp1.dmz.terryburton.co.uk"
+    stratum: 1
+    location: UK
+    owner: Terry Burton
+    notes: IPv4 and IPv6; GPS PPS refclock
+    vm: false
+
+  - hostname: "ntp2.dmz.terryburton.co.uk"
+    stratum: 1
+    location: UK
+    owner: Terry Burton
+    notes: IPv4 and IPv6; GPS PPS refclock
+    vm: false
+
   - hostname: "ntp1.glypnod.com"
     stratum: 2
     location: US
