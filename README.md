@@ -79,6 +79,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[ntp.3eck.net](https://ntp.3eck.net)|2|Switzerland|Adrian Zaugg||
 |[ntp.trifence.ch](https://ntp.trifence.ch)|2|Switzerland|Marcel Waldvogel||
 |[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||
+|[ntp01.maillink.ch](https://ntp01.maillink.ch)|2|Switzerland|Ueli Heuer||
+|[ntp02.maillink.ch](https://ntp02.maillink.ch)|2|Switzerland|Ueli Heuer||
+|[ntp03.maillink.ch](https://ntp03.maillink.ch)|2|Switzerland|Ueli Heuer||
 |time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
 |ntp2.glypnod.com|2|UK|Hal Murray|London|

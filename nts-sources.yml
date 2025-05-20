@@ -269,6 +269,24 @@ servers:
     owner: Marcel Waldvogel
     vm: false
 
+  - hostname: "[ntp01.maillink.ch](https://ntp01.maillink.ch)"
+    stratum: 2
+    location: Switzerland
+    owner: Ueli Heuer
+    vm: false
+
+  - hostname: "[ntp02.maillink.ch](https://ntp02.maillink.ch)"
+    stratum: 2
+    location: Switzerland
+    owner: Ueli Heuer
+    vm: false
+
+  - hostname: "[ntp03.maillink.ch](https://ntp03.maillink.ch)"
+    stratum: 2
+    location: Switzerland
+    owner: Ueli Heuer
+    vm: false
+
   - hostname: time.signorini.ch
     stratum: 1
     location: Switzerland
