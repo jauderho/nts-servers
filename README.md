@@ -20,7 +20,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
 - It is not possible to mix and match NTP and NTS at this time. Only NTS servers should be specified as the NTP entries will not be used
 - Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available
-- Verify NTS server connectivity using the following command
+- Verify NTS server connectivity using the following command before submitting a pull request
   - `./scripts/ntsCheck.sh <NTS_SERVER_NAME>` 
 
 ## The List
