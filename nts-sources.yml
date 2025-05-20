@@ -185,70 +185,70 @@ servers:
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Göteborg
+    notes: For users near Göteborg
     vm: false
 
   - hostname: gbg2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Göteborg
+    notes: For users near Göteborg
     vm: false
 
   - hostname: lul1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Luleå
+    notes: For users near Luleå
     vm: false
 
   - hostname: lul2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Luleå
+    notes: For users near Luleå
     vm: false
 
   - hostname: mmo1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Malmö
+    notes: For users near Malmö
     vm: false
 
   - hostname: mmo2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Malmö
+    notes: For users near Malmö
     vm: false
 
   - hostname: sth1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Stockholm
+    notes: For users near Stockholm
     vm: false
 
   - hostname: sth2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Stockholm
+    notes: For users near Stockholm
     vm: false
 
   - hostname: svl1.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Sundsvall
+    notes: For users near Sundsvall
     vm: false
 
   - hostname: svl2.nts.netnod.se
     stratum: 1
     location: Sweden
     owner: Netnod
-    notes: For users close to Sundsvall
+    notes: For users near Sundsvall
     vm: false
 
   - hostname: "[ntp.3eck.net](https://ntp.3eck.net)"
