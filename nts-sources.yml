@@ -43,31 +43,31 @@ servers:
   - hostname: a.st1.ntp.br
     stratum: 1
     location: Brazil
-    owner: ntp.br
+    owner: "[ntp.br](https://ntp.br)"
     vm: false
 
   - hostname: b.st1.ntp.br
     stratum: 1
     location: Brazil
-    owner: ntp.br
+    owner: "[ntp.br](https://ntp.br)"
     vm: false
 
   - hostname: c.st1.ntp.br
     stratum: 1
     location: Brazil
-    owner: ntp.br
+    owner: "[ntp.br](https://ntp.br)"
     vm: false
 
   - hostname: d.st1.ntp.br
     stratum: 1
     location: Brazil
-    owner: ntp.br
+    owner: "[ntp.br](https://ntp.br)"
     vm: false
 
   - hostname: gps.ntp.br
     stratum: 1
     location: Brazil
-    owner: ntp.br
+    owner: "[ntp.br](https://ntp.br)"
     vm: false
 
   - hostname: brazil.time.system76.com

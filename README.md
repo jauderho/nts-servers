@@ -35,11 +35,11 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |[nts.teambelgium.net](https://ntp.teambelgium.net)|1|Belgium|Team Belgium||
 ||
-|a.st1.ntp.br|1|Brazil|ntp.br||
-|b.st1.ntp.br|1|Brazil|ntp.br||
-|c.st1.ntp.br|1|Brazil|ntp.br||
-|d.st1.ntp.br|1|Brazil|ntp.br||
-|gps.ntp.br|1|Brazil|ntp.br||
+|a.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|b.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|c.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|d.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|gps.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |brazil.time.system76.com|2|Brazil|System76||
 |[time.bolha.one](https://time.bolha.one)|1|Brazil|Cadu Silva||
 ||
