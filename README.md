@@ -28,6 +28,11 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |---|:---:|---|---|---|
 |[time.cloudflare.com](https://time.cloudflare.com)|3|All|Cloudflare|Anycast|
 ||
+|1.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+|2.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+|3.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+|4.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+||
 |[nts.teambelgium.net](https://ntp.teambelgium.net)|1|Belgium|Team Belgium||
 ||
 |a.st1.ntp.br|1|Brazil|ntp.br||

@@ -6,6 +6,34 @@ servers:
     notes: Anycast
     vm: false
 
+  - hostname: 1.ntp.ubuntu.com
+    stratum: 2
+    location: Distro
+    owner: Ubuntu
+    notes: Distro use only
+    vm: false
+
+  - hostname: 2.ntp.ubuntu.com
+    stratum: 2
+    location: Distro
+    owner: Ubuntu
+    notes: Distro use only
+    vm: false
+
+  - hostname: 3.ntp.ubuntu.com
+    stratum: 2
+    location: Distro
+    owner: Ubuntu
+    notes: Distro use only
+    vm: false
+
+  - hostname: 4.ntp.ubuntu.com
+    stratum: 2
+    location: Distro
+    owner: Ubuntu
+    notes: Distro use only
+    vm: false
+
   - hostname: "[nts.teambelgium.net](https://ntp.teambelgium.net)"
     stratum: 1
     location: Belgium
