@@ -13,4 +13,4 @@ fi
 NTS_SERVER=$1
 
 # Run the chronyd command with the argument
-chronyd -Q -t 3 "server $NTS_SERVER iburst nts maxsamples 1"
+chronyd -Q -t 5 "server $NTS_SERVER iburst nts maxsamples 1"
