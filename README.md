@@ -2,7 +2,7 @@
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers) 
 
-WARNING: There is no endorsement of any server included in this list. Please carefully vet before usage
+WARNING: There is no endorsement of any server included in this list. Please carefully vet before usage.
 
 This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread.
 
@@ -10,12 +10,15 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
 - PR will not be merged until connectivity to server can be verified
 - Please specify if server is virtualized
-- You can now update `nts-sources.yml` to modify both the `README.md` and `chrony.conf`
+- You can now update `nts-sources.yml` to modify the `README.md`, `chrony.conf`, and `ntp.toml`
   - Run `./scripts/ntpServerConverter.py nts-sources.yml`
-  - Use `git diff origin README.md chrony.conf` to verify that you have a clean update before submitting a PR
+  - Use `git diff origin README.md chrony.conf ntp.toml` to verify that you have a clean update before submitting a PR
 - AI generated documentation: https://deepwiki.com/jauderho/nts-servers
 
 ## Usage
+- This repository provides NTS server lists in multiple formats:
+  - For use with chrony - [chrony.conf](chrony.conf)
+  - For use with ntpd-rs - [ntp.toml](ntp.toml)
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
 - It is not possible to mix and match NTP and NTS at this time. Only NTS servers should be specified as the NTP entries will not be used
