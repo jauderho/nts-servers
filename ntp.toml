@@ -1,0 +1,265 @@
+#
+# NTS servers in ntpd-rs format
+#
+
+# All
+[[source]]
+mode = "nts"
+address = "time.cloudflare.com"
+
+
+# Distro
+[[source]]
+mode = "nts"
+address = "1.ntp.ubuntu.com"
+
+[[source]]
+mode = "nts"
+address = "2.ntp.ubuntu.com"
+
+[[source]]
+mode = "nts"
+address = "3.ntp.ubuntu.com"
+
+[[source]]
+mode = "nts"
+address = "4.ntp.ubuntu.com"
+
+
+# Belgium
+[[source]]
+mode = "nts"
+address = "nts.teambelgium.net"
+
+
+# Brazil
+[[source]]
+mode = "nts"
+address = "a.st1.ntp.br"
+
+[[source]]
+mode = "nts"
+address = "b.st1.ntp.br"
+
+[[source]]
+mode = "nts"
+address = "c.st1.ntp.br"
+
+[[source]]
+mode = "nts"
+address = "d.st1.ntp.br"
+
+[[source]]
+mode = "nts"
+address = "gps.ntp.br"
+
+[[source]]
+mode = "nts"
+address = "brazil.time.system76.com"
+
+[[source]]
+mode = "nts"
+address = "time.bolha.one"
+
+
+# Canada
+[[source]]
+mode = "nts"
+address = "time.web-clock.ca"
+
+
+# Finland
+[[source]]
+mode = "nts"
+address = "ntp.miuku.net"
+
+
+# France
+[[source]]
+mode = "nts"
+address = "paris.time.system76.com"
+
+
+# Germany
+[[source]]
+mode = "nts"
+address = "ntp3.fau.de"
+
+[[source]]
+mode = "nts"
+address = "ntp3.ipv6.fau.de"
+
+[[source]]
+mode = "nts"
+address = "ptbtime1.ptb.de"
+
+[[source]]
+mode = "nts"
+address = "ptbtime2.ptb.de"
+
+[[source]]
+mode = "nts"
+address = "ptbtime3.ptb.de"
+
+[[source]]
+mode = "nts"
+address = "ptbtime4.ptb.de"
+
+[[source]]
+mode = "nts"
+address = "www.jabber-germany.de"
+
+[[source]]
+mode = "nts"
+address = "www.masters-of-cloud.de"
+
+[[source]]
+mode = "nts"
+address = "ntp.nanosrvr.cloud"
+
+
+# Netherlands
+[[source]]
+mode = "nts"
+address = "ntppool1.time.nl"
+
+[[source]]
+mode = "nts"
+address = "ntppool2.time.nl"
+
+
+# Singapore
+[[source]]
+mode = "nts"
+address = "ntpmon.dcs1.biz"
+
+
+# Sweden
+[[source]]
+mode = "nts"
+address = "nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "gbg1.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "gbg2.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "lul1.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "lul2.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "mmo1.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "mmo2.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "sth1.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "sth2.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "svl1.nts.netnod.se"
+
+[[source]]
+mode = "nts"
+address = "svl2.nts.netnod.se"
+
+
+# Switzerland
+[[source]]
+mode = "nts"
+address = "ntp.3eck.net"
+
+[[source]]
+mode = "nts"
+address = "ntp.trifence.ch"
+
+[[source]]
+mode = "nts"
+address = "ntp.zeitgitter.net"
+
+[[source]]
+mode = "nts"
+address = "ntp01.maillink.ch"
+
+[[source]]
+mode = "nts"
+address = "ntp02.maillink.ch"
+
+[[source]]
+mode = "nts"
+address = "ntp03.maillink.ch"
+
+[[source]]
+mode = "nts"
+address = "time.signorini.ch"
+
+
+# UK
+[[source]]
+mode = "nts"
+address = "ntp2.glypnod.com"
+
+[[source]]
+mode = "nts"
+address = "ntp1.dmz.terryburton.co.uk"
+
+[[source]]
+mode = "nts"
+address = "ntp2.dmz.terryburton.co.uk"
+
+
+# US
+[[source]]
+mode = "nts"
+address = "ntp1.glypnod.com"
+
+[[source]]
+mode = "nts"
+address = "ohio.time.system76.com"
+
+[[source]]
+mode = "nts"
+address = "oregon.time.system76.com"
+
+[[source]]
+mode = "nts"
+address = "virginia.time.system76.com"
+
+[[source]]
+mode = "nts"
+address = "stratum1.time.cifelli.xyz"
+
+[[source]]
+mode = "nts"
+address = "time.cifelli.xyz"
+
+[[source]]
+mode = "nts"
+address = "time.txryan.com"
+
+
+# Known VM servers (may be less accurate)
+[[source]]
+mode = "nts"
+address = "ntp.viarouge.net"
+
+[[source]]
+mode = "nts"
+address = "time.xargs.org"
+
