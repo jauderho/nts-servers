@@ -1,5 +1,6 @@
 # NTP servers with NTS support
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jauderho/nts-servers)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers) 
 
 WARNING: There is no endorsement of any server included in this list. Please carefully vet before usage.
