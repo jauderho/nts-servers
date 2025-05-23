@@ -3,15 +3,15 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jauderho/nts-servers)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers) 
 
-WARNING: There is no endorsement of any server included in this list. Please carefully vet before usage.
+**WARNING:** There is no endorsement of any server included in this list. Please carefully vet before usage.
 
-This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread.
+This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. Vist the companion repo of [public NTP servers](https://github.com/jauderho/public-ntp-servers).
 
 ## Contribute
 - Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
 - PR will not be merged until connectivity to server can be verified
 - Please specify if server is virtualized
-- You can now update `nts-sources.yml` to modify the `README.md`, `chrony.conf`, and `ntp.toml`
+- Contributions and updates to the list are welcome via pull requests to `nts-sources.yml` to modify the `README.md`, `chrony.conf`, and `ntp.toml`
   - Run `./scripts/ntpServerConverter.py nts-sources.yml`
   - Use `git diff origin README.md chrony.conf ntp.toml` to verify that you have a clean update before submitting a PR
 - AI generated documentation: https://deepwiki.com/jauderho/nts-servers
