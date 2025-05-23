@@ -42,10 +42,10 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |a.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |b.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |c.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
-|d.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|d.st1.ntp.br|2|Brazil|[ntp.br](https://ntp.br)||
 |gps.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |brazil.time.system76.com|2|Brazil|System76||
-|[time.bolha.one](https://time.bolha.one)|1|Brazil|Cadu Silva||
+|[time.bolha.one](https://time.bolha.one)|2|Brazil|Cadu Silva||
 ||
 |[time.web-clock.ca](https://time.web-clock.ca)|1|Canada|Community||
 ||
@@ -66,7 +66,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
 ||
-|ntpmon.dcs1.biz|1|Singapore|Sanjeev Gupta||
+|ntpmon.dcs1.biz|3|Singapore|Sanjeev Gupta||
 ||
 |[nts.netnod.se](https://nts.netnod.se)|1|Sweden|Netnod|Anycast|
 |gbg1.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|
@@ -80,12 +80,12 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |svl1.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
 |svl2.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
 ||
-|[ntp.3eck.net](https://ntp.3eck.net)|2|Switzerland|Adrian Zaugg||
+|[ntp.3eck.net](https://ntp.3eck.net)|3|Switzerland|Adrian Zaugg||
 |[ntp.trifence.ch](https://ntp.trifence.ch)|2|Switzerland|Marcel Waldvogel||
 |[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||
-|[ntp01.maillink.ch](https://ntp01.maillink.ch)|2|Switzerland|Ueli Heuer||
-|[ntp02.maillink.ch](https://ntp02.maillink.ch)|2|Switzerland|Ueli Heuer||
-|[ntp03.maillink.ch](https://ntp03.maillink.ch)|2|Switzerland|Ueli Heuer||
+|[ntp01.maillink.ch](https://ntp01.maillink.ch)|1|Switzerland|Ueli Heuer||
+|[ntp02.maillink.ch](https://ntp02.maillink.ch)|1|Switzerland|Ueli Heuer||
+|[ntp03.maillink.ch](https://ntp03.maillink.ch)|1|Switzerland|Ueli Heuer||
 |time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
 |ntp2.glypnod.com|2|UK|Hal Murray|London|
@@ -105,7 +105,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |[ntp.viarouge.net](http://ntp.viarouge.net)|2|France|Hubert Viarouge||
-|time.xargs.org|2|US|Michael Driscoll|IPv4 and IPv6|
+|time.xargs.org|3|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/nts-servers&Timeline">
