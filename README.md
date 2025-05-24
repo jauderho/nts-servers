@@ -5,7 +5,7 @@
 
 **WARNING:** There is no endorsement of any server included in this list. Please carefully vet before usage.
 
-This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. Vist the companion repo of [public NTP servers](https://github.com/jauderho/public-ntp-servers).
+This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. Visit the companion repo of [public NTP servers](https://github.com/jauderho/public-ntp-servers).
 
 ## Contribute
 - Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
