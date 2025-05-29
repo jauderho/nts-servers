@@ -30,7 +30,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ## The List
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
-|[time.cloudflare.com](https://time.cloudflare.com)|3|All|Cloudflare|Anycast|
+|time.cloudflare.com|3|All|Cloudflare|Anycast|
 ||
 |1.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
 |2.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
@@ -45,11 +45,11 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |d.st1.ntp.br|2|Brazil|[ntp.br](https://ntp.br)||
 |gps.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |brazil.time.system76.com|2|Brazil|System76||
-|[time.bolha.one](https://time.bolha.one)|2|Brazil|Cadu Silva||
+|time.bolha.one|2|Brazil|Cadu Silva||
 ||
 |[time.web-clock.ca](https://time.web-clock.ca)|1|Canada|Community||
 ||
-|[ntp.miuku.net](https://ntp.miuku.net)|3|Finland|miuku.net||
+|ntp.miuku.net|3|Finland|miuku.net||
 ||
 |paris.time.system76.com|2|France|System76||
 ||
@@ -59,16 +59,16 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ptbtime2.ptb.de|1|Germany|PTB||
 |ptbtime3.ptb.de|1|Germany|PTB||
 |ptbtime4.ptb.de|1|Germany|PTB||
-|www.jabber-germany.de|2|Germany|Jörg Morbitzer||
-|www.masters-of-cloud.de|2|Germany|Jörg Morbitzer||
+|[www.jabber-germany.de](https://www.jabber-germany.de)|2|Germany|Jörg Morbitzer||
+|[www.masters-of-cloud.de](https://www.masters-of-cloud.de)|2|Germany|Jörg Morbitzer||
 |ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski|IPv4 and IPv6|
 ||
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
 ||
-|ntpmon.dcs1.biz|3|Singapore|Sanjeev Gupta||
+|[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)|3|Singapore|Sanjeev Gupta||
 ||
-|[nts.netnod.se](https://nts.netnod.se)|1|Sweden|Netnod|Anycast|
+|nts.netnod.se|1|Sweden|Netnod|Anycast|
 |gbg1.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|
 |gbg2.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|
 |lul1.nts.netnod.se|1|Sweden|Netnod|For users near Luleå|
@@ -104,8 +104,8 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
-|[ntp.viarouge.net](http://ntp.viarouge.net)|2|France|Hubert Viarouge||
-|time.xargs.org|3|US|Michael Driscoll|IPv4 and IPv6|
+|ntp.viarouge.net|2|France|Hubert Viarouge||
+|[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/nts-servers&Timeline">

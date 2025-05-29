@@ -1,5 +1,5 @@
 servers:
-- hostname: '[time.cloudflare.com](https://time.cloudflare.com)'
+- hostname: time.cloudflare.com
   stratum: 3
   location: All
   owner: Cloudflare
@@ -76,7 +76,7 @@ servers:
   owner: System76
   vm: false
 
-- hostname: '[time.bolha.one](https://time.bolha.one)'
+- hostname: time.bolha.one
   stratum: 2
   location: Brazil
   owner: Cadu Silva
@@ -88,7 +88,7 @@ servers:
   owner: Community
   vm: false
 
-- hostname: '[ntp.miuku.net](https://ntp.miuku.net)'
+- hostname: ntp.miuku.net
   stratum: 3
   location: Finland
   owner: miuku.net
@@ -137,16 +137,16 @@ servers:
   owner: PTB
   vm: false
 
-- hostname: www.jabber-germany.de
+- hostname: '[www.jabber-germany.de](https://www.jabber-germany.de)'
   stratum: 2
   location: Germany
-  owner: "J\xF6rg Morbitzer"
+  owner: Jörg Morbitzer
   vm: false
 
-- hostname: www.masters-of-cloud.de
+- hostname: '[www.masters-of-cloud.de](https://www.masters-of-cloud.de)'
   stratum: 2
   location: Germany
-  owner: "J\xF6rg Morbitzer"
+  owner: Jörg Morbitzer
   vm: false
 
 - hostname: ntp.nanosrvr.cloud
@@ -168,13 +168,13 @@ servers:
   owner: TimeNL
   vm: false
 
-- hostname: ntpmon.dcs1.biz
+- hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
   stratum: 3
   location: Singapore
   owner: Sanjeev Gupta
   vm: false
 
-- hostname: '[nts.netnod.se](https://nts.netnod.se)'
+- hostname: nts.netnod.se
   stratum: 1
   location: Sweden
   owner: Netnod
@@ -185,42 +185,42 @@ servers:
   stratum: 1
   location: Sweden
   owner: Netnod
-  notes: "For users near G\xF6teborg"
+  notes: For users near Göteborg
   vm: false
 
 - hostname: gbg2.nts.netnod.se
   stratum: 1
   location: Sweden
   owner: Netnod
-  notes: "For users near G\xF6teborg"
+  notes: For users near Göteborg
   vm: false
 
 - hostname: lul1.nts.netnod.se
   stratum: 1
   location: Sweden
   owner: Netnod
-  notes: "For users near Lule\xE5"
+  notes: For users near Luleå
   vm: false
 
 - hostname: lul2.nts.netnod.se
   stratum: 1
   location: Sweden
   owner: Netnod
-  notes: "For users near Lule\xE5"
+  notes: For users near Luleå
   vm: false
 
 - hostname: mmo1.nts.netnod.se
   stratum: 1
   location: Sweden
   owner: Netnod
-  notes: "For users near Malm\xF6"
+  notes: For users near Malmö
   vm: false
 
 - hostname: mmo2.nts.netnod.se
   stratum: 1
   location: Sweden
   owner: Netnod
-  notes: "For users near Malm\xF6"
+  notes: For users near Malmö
   vm: false
 
 - hostname: sth1.nts.netnod.se
@@ -357,13 +357,13 @@ servers:
   owner: Tanner Ryan
   vm: false
 
-- hostname: '[ntp.viarouge.net](http://ntp.viarouge.net)'
+- hostname: ntp.viarouge.net
   stratum: 2
   location: France
   owner: Hubert Viarouge
   vm: true
 
-- hostname: time.xargs.org
+- hostname: '[time.xargs.org](https://time.xargs.org)'
   stratum: 3
   location: US
   owner: Michael Driscoll
