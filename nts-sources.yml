@@ -369,3 +369,17 @@ servers:
   owner: Michael Driscoll
   notes: IPv4 and IPv6
   vm: true
+
+- hostname: '[ntp1.wiktel.com](https://ntp1.wiktel.com)'
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[ntp2.wiktel.com](https://ntp2.wiktel.com)'
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: IPv4 and IPv6
+  vm: false

@@ -253,6 +253,14 @@ address = "time.cifelli.xyz"
 mode = "nts"
 address = "time.txryan.com"
 
+[[source]]
+mode = "nts"
+address = "ntp1.wiktel.com"
+
+[[source]]
+mode = "nts"
+address = "ntp2.wiktel.com"
+
 
 # Known VM servers (may be less accurate)
 [[source]]

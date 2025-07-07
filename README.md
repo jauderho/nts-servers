@@ -99,6 +99,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
 |[time.cifelli.xyz](https://time.cifelli.xyz)|2|US|Mike Cifelli||
 |[time.txryan.com](https://time.txryan.com)|2|US|Tanner Ryan||
+|[ntp1.wiktel.com](https://ntp1.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
+|[ntp2.wiktel.com](https://ntp2.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
 
 The following servers are known to be virtualized and may be less accurate. YMMV.
 
