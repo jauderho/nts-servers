@@ -47,6 +47,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |brazil.time.system76.com|2|Brazil|System76||
 |time.bolha.one|2|Brazil|Cadu Silva||
 ||
+|[time1.mbix.ca](https://time1.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time2.mbix.ca](https://time2.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time3.mbix.ca](https://time3.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
 |[time.web-clock.ca](https://time.web-clock.ca)|1|Canada|Community||
 ||
 |ntp.miuku.net|3|Finland|miuku.net||
