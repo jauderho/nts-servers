@@ -47,6 +47,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |brazil.time.system76.com|2|Brazil|System76||
 |time.bolha.one|2|Brazil|Cadu Silva||
 ||
+|[time1.mbix.ca](https://time1.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time2.mbix.ca](https://time2.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time3.mbix.ca](https://time3.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
 |[time.web-clock.ca](https://time.web-clock.ca)|1|Canada|Community||
 ||
 |ntp.miuku.net|3|Finland|miuku.net||
@@ -99,6 +102,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
 |[time.cifelli.xyz](https://time.cifelli.xyz)|2|US|Mike Cifelli||
 |[time.txryan.com](https://time.txryan.com)|2|US|Tanner Ryan||
+|[ntp1.wiktel.com](https://ntp1.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
+|[ntp2.wiktel.com](https://ntp2.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
 
 The following servers are known to be virtualized and may be less accurate. YMMV.
 

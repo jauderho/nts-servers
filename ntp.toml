@@ -65,6 +65,18 @@ address = "time.bolha.one"
 # Canada
 [[source]]
 mode = "nts"
+address = "time1.mbix.ca"
+
+[[source]]
+mode = "nts"
+address = "time2.mbix.ca"
+
+[[source]]
+mode = "nts"
+address = "time3.mbix.ca"
+
+[[source]]
+mode = "nts"
 address = "time.web-clock.ca"
 
 
@@ -252,6 +264,14 @@ address = "time.cifelli.xyz"
 [[source]]
 mode = "nts"
 address = "time.txryan.com"
+
+[[source]]
+mode = "nts"
+address = "ntp1.wiktel.com"
+
+[[source]]
+mode = "nts"
+address = "ntp2.wiktel.com"
 
 
 # Known VM servers (may be less accurate)

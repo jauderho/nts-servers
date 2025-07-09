@@ -82,6 +82,27 @@ servers:
   owner: Cadu Silva
   vm: false
 
+- hostname: '[time1.mbix.ca](https://time1.mbix.ca)'
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[time2.mbix.ca](https://time2.mbix.ca)'
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[time3.mbix.ca](https://time3.mbix.ca)'
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: IPv4 and IPv6
+  vm: false
+
 - hostname: '[time.web-clock.ca](https://time.web-clock.ca)'
   stratum: 1
   location: Canada
@@ -369,3 +390,17 @@ servers:
   owner: Michael Driscoll
   notes: IPv4 and IPv6
   vm: true
+
+- hostname: '[ntp1.wiktel.com](https://ntp1.wiktel.com)'
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[ntp2.wiktel.com](https://ntp2.wiktel.com)'
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: IPv4 and IPv6
+  vm: false
