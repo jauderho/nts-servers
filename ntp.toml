@@ -241,6 +241,22 @@ address = "ntp1.dmz.terryburton.co.uk"
 mode = "nts"
 address = "ntp2.dmz.terryburton.co.uk"
 
+[[source]]
+mode = "nts"
+address = "ntp0.cam.ac.uk"
+
+[[source]]
+mode = "nts"
+address = "ntp1.cam.ac.uk"
+
+[[source]]
+mode = "nts"
+address = "ntp2.cam.ac.uk"
+
+[[source]]
+mode = "nts"
+address = "ntp3.cam.ac.uk"
+
 
 # US
 [[source]]

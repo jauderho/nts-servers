@@ -96,6 +96,10 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntp2.glypnod.com|2|UK|Hal Murray|London|
 |ntp1.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
 |ntp2.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
+|ntp0.cam.ac.uk|2|UK|University of Cambridge. University Information Services (UIS)|IPv4 and IPv6|
+|ntp1.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
+|ntp2.cam.ac.uk|2|UK|University of Cambridge, Department of Engineering|IPv4 and IPv6|
+|ntp3.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
 ||
 |ntp1.glypnod.com|2|US|Hal Murray|San Francisco|
 |ohio.time.system76.com|2|US|System76||
