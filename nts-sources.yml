@@ -342,6 +342,34 @@ servers:
   notes: IPv4 and IPv6
   vm: false
 
+- hostname: ntp0.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge. University Information Services (UIS)
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp1.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, University Information Services (UIS)
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp2.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, Department of Engineering
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp3.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, University Information Services (UIS)
+  notes: IPv4 and IPv6
+  vm: false
+
 - hostname: ntp1.glypnod.com
   stratum: 2
   location: US
