@@ -1,4 +1,15 @@
 #!/usr/bin/python3
+# Usage: ntpServerConverter.py <input.yml> [markdown|chrony|toml] [output_file]
+#
+# Converts nts-sources.yml to README.md (The List section), chrony.conf, and ntp.toml.
+#
+# Switches:
+#   input_file              Path to the input YAML file (required)
+#   output_format           Optional: markdown, chrony, or toml
+#   output_file             Required when output_format is specified
+#
+# With no output_format: updates README.md in-place and writes chrony.conf + ntp.toml.
+# Virtualized servers are sorted by location then hostname (case-insensitive).
 
 import yaml
 import argparse
@@ -16,6 +27,10 @@ def extract_hostname(hostname_field):
     if match:
         return match.group(1)
     return hostname_field
+
+
+def _sort_key(server):
+    return (server["location"].lower(), extract_hostname(server["hostname"]).lower())
 
 
 def generate_markdown(data):
@@ -42,6 +57,7 @@ def generate_markdown(data):
         markdown += f"|{hostname}|{stratum}|{location}|{owner}|{notes}|\n"
 
     if vm_servers:
+        vm_servers.sort(key=_sort_key)
         markdown += "\nThe following servers are known to be virtualized and may be less accurate. YMMV.\n\n"
         markdown += "|Hostname|Stratum|Location|Owner|Notes|\n|---|:---:|---|---|---|\n"
         for server in vm_servers:
@@ -75,6 +91,7 @@ def generate_chrony_conf(data):
         chrony_conf += f"server {hostname} nts iburst\n"
 
     if vm_servers:
+        vm_servers.sort(key=_sort_key)
         chrony_conf += "\n# Known VM servers (may be less accurate)\n"
         for server in vm_servers:
             hostname = extract_hostname(server["hostname"])
@@ -103,6 +120,7 @@ def generate_ntp_toml(data):
         ntp_toml += f'[[source]]\nmode = "nts"\naddress = "{hostname}"\n\n'
 
     if vm_servers:
+        vm_servers.sort(key=_sort_key)
         ntp_toml += "\n# Known VM servers (may be less accurate)\n"
         for server in vm_servers:
             hostname = extract_hostname(server["hostname"])

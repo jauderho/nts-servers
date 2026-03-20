@@ -13,7 +13,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 - New entries should be grouped by location then in alphabetical order
 - Please specify if server is virtualized
 - Contributions and updates to the list are welcome via pull requests to [nts-sources.yml](https://github.com/jauderho/nts-servers/blob/main/nts-sources.yml) to modify the `README.md`, `chrony.conf`, and `ntp.toml`
-  - Run `./scripts/ntpServerConverter.py nts-sources.yml` to update the other files after changing nts-sources.yml
+  - Run `./scripts/ntsServerConverter.py nts-sources.yml` to update the other files after changing nts-sources.yml
   - Use `git diff origin README.md chrony.conf ntp.toml` to verify that you have a clean update before submitting a PR
 - AI generated documentation: https://deepwiki.com/jauderho/nts-servers
 
@@ -116,7 +116,10 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
+|ntp.viarouge.net|2|France|Hubert Viarouge||
 |ntp1.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
+|ntp10.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
+|ntp11.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, IPv4 and IPv6|
 |ntp2.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |ntp3.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
 |ntp4.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
@@ -124,10 +127,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp6.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
-|ntp10.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
-|ntp11.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, IPv4 and IPv6|
 |ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
-|ntp.viarouge.net|2|France|Hubert Viarouge||
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History

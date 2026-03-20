@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "yaml",
+# ]
+# ///
 """
 ntsUpdateSources.py - Update stratum values in nts-sources.yml file
 
