@@ -80,6 +80,16 @@ mode = "nts"
 address = "time.web-clock.ca"
 
 
+# Croatia
+[[source]]
+mode = "nts"
+address = "nts1.ntp.hr"
+
+[[source]]
+mode = "nts"
+address = "nts2.ntp.hr"
+
+
 # Czech Republic
 [[source]]
 mode = "nts"
