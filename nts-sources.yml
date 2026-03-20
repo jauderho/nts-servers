@@ -109,13 +109,13 @@ servers:
   owner: Community
   vm: false
 
-- hostname: '[nts1.ntp.hr]'
+- hostname: nts1.ntp.hr
   stratum: 1
   location: Croatia
   owner: UNIZG FER REMLAB '[www.ntp.hr](http://www.ntp.hr)' '[rem.fer.hr](https://rem.fer.hr)'
   vm: false
 
-- hostname: '[nts2.ntp.hr]'
+- hostname: nts2.ntp.hr
   stratum: 1
   location: Croatia
   owner: UNIZG FER REMLAB '[www.ntp.hr](http://www.ntp.hr)' '[rem.fer.hr](https://rem.fer.hr)'
