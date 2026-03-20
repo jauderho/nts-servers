@@ -128,6 +128,83 @@ servers:
   owner: System76
   vm: false
 
+- hostname: ntp1.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA4, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp2.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA4, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp3.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA3, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp4.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA3, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp5.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA5, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp6.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA5, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp7.rdem-systems.com
+  stratum: 2
+  location: Germany
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Frankfurt area, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp8.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA5, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp9.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA4, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp10.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA3, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp11.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "TH2 Paris, IPv4 and IPv6"
+  vm: true
+
 - hostname: ntp3.fau.de
   stratum: 1
   location: Germany

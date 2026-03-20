@@ -299,6 +299,50 @@ address = "ntp2.wiktel.com"
 # Known VM servers (may be less accurate)
 [[source]]
 mode = "nts"
+address = "ntp1.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp2.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp3.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp4.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp5.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp6.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp7.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp8.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp9.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp10.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp11.rdem-systems.com"
+
+[[source]]
+mode = "nts"
 address = "ntp.viarouge.net"
 
 [[source]]
