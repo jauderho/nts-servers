@@ -323,10 +323,6 @@ address = "ntp6.rdem-systems.com"
 
 [[source]]
 mode = "nts"
-address = "ntp7.rdem-systems.com"
-
-[[source]]
-mode = "nts"
 address = "ntp8.rdem-systems.com"
 
 [[source]]
@@ -340,6 +336,10 @@ address = "ntp10.rdem-systems.com"
 [[source]]
 mode = "nts"
 address = "ntp11.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp7.rdem-systems.com"
 
 [[source]]
 mode = "nts"

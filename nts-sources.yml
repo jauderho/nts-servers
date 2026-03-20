@@ -170,13 +170,6 @@ servers:
   notes: "Equinix PA5, IPv4 and IPv6"
   vm: true
 
-- hostname: ntp7.rdem-systems.com
-  stratum: 2
-  location: Germany
-  owner: "[RDEM Systems](https://www.rdem-systems.com)"
-  notes: "Frankfurt area, IPv4 and IPv6"
-  vm: true
-
 - hostname: ntp8.rdem-systems.com
   stratum: 2
   location: France
@@ -217,6 +210,13 @@ servers:
   owner: FAU
   notes: IPv6 only
   vm: false
+
+- hostname: ntp7.rdem-systems.com
+  stratum: 2
+  location: Germany
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Frankfurt area, IPv4 and IPv6"
+  vm: true
 
 - hostname: ptbtime1.ptb.de
   stratum: 1
