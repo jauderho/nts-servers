@@ -10,6 +10,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ## Contribute
 - Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
 - PR will not be merged until connectivity to server can be verified. Scripts are available in the `scripts/` subfolder to assist with this
+- New entries should be grouped by location then in alphabetical order
 - Please specify if server is virtualized
 - Contributions and updates to the list are welcome via pull requests to [nts-sources.yml](https://github.com/jauderho/nts-servers/blob/main/nts-sources.yml) to modify the `README.md`, `chrony.conf`, and `ntp.toml`
   - Run `./scripts/ntpServerConverter.py nts-sources.yml` to update the other files after changing nts-sources.yml
