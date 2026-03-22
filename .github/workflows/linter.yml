@@ -28,7 +28,7 @@ jobs:
     steps:
       # Checkout the code base #
       - name: Harden Runner
-        uses: step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f # v1
+        uses: step-security/harden-runner@0080882f6c36860b6ba35c610c98ce87d4e2f26f # v2.10.2
         with:
           egress-policy: block
           disable-telemetry: true
@@ -42,7 +42,7 @@ jobs:
             zrdfepirv2blaprdstr01a.blob.core.windows.net:443
           
       - name: Checkout Code
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
@@ -50,7 +50,7 @@ jobs:
       # Run Linter against code base #
       - name: Lint Code Base
         #uses: github/super-linter@b8641364ca9a79b3cf07f3c4c59a82709cd39094 # v4
-        uses: github/super-linter/slim@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1 # v4
+        uses: github/super-linter/slim@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1 # v7
         #uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           VALIDATE_ALL_CODEBASE: false
