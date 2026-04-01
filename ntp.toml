@@ -155,6 +155,10 @@ address = "ntppool1.time.nl"
 mode = "nts"
 address = "ntppool2.time.nl"
 
+[[source]]
+mode = "nts"
+address = "nts.decepticon.space"
+
 
 # Singapore
 [[source]]

@@ -74,6 +74,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
+|nts.decepticon.space|1|Netherlands|Rick Betting||
 ||
 |[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)|3|Singapore|Sanjeev Gupta||
 ||
