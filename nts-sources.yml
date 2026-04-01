@@ -287,6 +287,12 @@ servers:
   owner: TimeNL
   vm: false
 
+- hostname: nts.decepticon.space
+  stratum: 1
+  location: Netherlands
+  owner: Rick Betting
+  vm: false
+
 - hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
   stratum: 3
   location: Singapore
