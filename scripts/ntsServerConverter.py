@@ -35,7 +35,7 @@ def _sort_key(server):
 
 def generate_markdown(data):
     markdown = "## The List\n"
-    markdown += "|Hostname|Stratum|Location|Owner|Notes|\n|---|:---:|---|---|---|\n"
+    markdown += "|Hostname|Stratum|Location|Owner|Notes|Cert Validity|\n|---|:---:|---|---|---|---|\n"
     current_location = None
     vm_servers = []
 
@@ -53,21 +53,23 @@ def generate_markdown(data):
         location = server["location"]
         owner = server["owner"]
         notes = server.get("notes", "")
+        validity = server.get("certificate_validity", "")
 
-        markdown += f"|{hostname}|{stratum}|{location}|{owner}|{notes}|\n"
+        markdown += f"|{hostname}|{stratum}|{location}|{owner}|{notes}|{validity}|\n"
 
     if vm_servers:
         vm_servers.sort(key=_sort_key)
         markdown += "\nThe following servers are known to be virtualized and may be less accurate. YMMV.\n\n"
-        markdown += "|Hostname|Stratum|Location|Owner|Notes|\n|---|:---:|---|---|---|\n"
+        markdown += "|Hostname|Stratum|Location|Owner|Notes|Cert Validity|\n|---|:---:|---|---|---|---|\n"
         for server in vm_servers:
             hostname = server["hostname"]
             stratum = server["stratum"]
             location = server["location"]
             owner = server["owner"]
             notes = server.get("notes", "")
+            validity = server.get("certificate_validity", "")
 
-            markdown += f"|{hostname}|{stratum}|{location}|{owner}|{notes}|\n"
+            markdown += f"|{hostname}|{stratum}|{location}|{owner}|{notes}|{validity}|\n"
 
     return markdown
 

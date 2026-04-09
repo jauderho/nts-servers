@@ -15,6 +15,10 @@ address = "1.ntp.ubuntu.com"
 
 [[source]]
 mode = "nts"
+address = "ntp-bootstrap.ubuntu.com"
+
+[[source]]
+mode = "nts"
 address = "2.ntp.ubuntu.com"
 
 [[source]]
