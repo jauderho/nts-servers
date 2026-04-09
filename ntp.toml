@@ -149,6 +149,22 @@ address = "ntp.nanosrvr.cloud"
 # Netherlands
 [[source]]
 mode = "nts"
+address = "1.nts.nothingtohide.nl"
+
+[[source]]
+mode = "nts"
+address = "2.nts.nothingtohide.nl"
+
+[[source]]
+mode = "nts"
+address = "3.nts.nothingtohide.nl"
+
+[[source]]
+mode = "nts"
+address = "4.nts.nothingtohide.nl"
+
+[[source]]
+mode = "nts"
 address = "ntppool1.time.nl"
 
 [[source]]

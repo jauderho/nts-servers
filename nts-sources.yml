@@ -275,6 +275,34 @@ servers:
   notes: IPv4 and IPv6
   vm: false
 
+- hostname: 1.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: 2.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: 3.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: 4.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
 - hostname: ntppool1.time.nl
   stratum: 1
   location: Netherlands

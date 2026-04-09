@@ -72,6 +72,10 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[www.masters-of-cloud.de](https://www.masters-of-cloud.de)|2|Germany|Jörg Morbitzer||
 |ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski|IPv4 and IPv6|
 ||
+|1.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|2.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|3.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|4.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
 |ntppool1.time.nl|1|Netherlands|TimeNL||
 |ntppool2.time.nl|1|Netherlands|TimeNL||
 |nts.decepticon.space|1|Netherlands|Rick Betting||
