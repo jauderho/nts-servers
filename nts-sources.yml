@@ -109,6 +109,18 @@ servers:
   owner: Community
   vm: false
 
+- hostname: ntp.neu.edu.cn
+  stratum: 1
+  location: China
+  owner: "[Northeastern University](https://www.neu.edu.cn)"
+  vm: false
+
+- hostname: ntp1.neu.edu.cn
+  stratum: 1
+  location: China
+  owner: "[Northeastern University](https://www.neu.edu.cn)"
+  vm: false
+
 - hostname: '[nts1.ntp.hr](http://www.ntp.hr)'
   stratum: 1
   location: Croatia
