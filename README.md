@@ -19,7 +19,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 
 ## Usage
 - This repository provides NTS server lists in multiple formats:
-  - For use with chrony - [chrony.conf](chrony.conf)
+  - For use with chrony/ntpsec - [chrony.conf](chrony.conf)
   - For use with ntpd-rs - [ntp.toml](ntp.toml)
 - Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
 - Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
