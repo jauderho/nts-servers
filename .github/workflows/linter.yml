@@ -24,6 +24,7 @@ jobs:
     # Set the agent to run on
     runs-on: ubuntu-24.04
     permissions:
+      contents: read
       statuses: write
 
     # Load all steps #
