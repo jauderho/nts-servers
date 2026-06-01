@@ -24,7 +24,7 @@ jobs:
       actions: read
       contents: read      
     container:
-      image: semgrep/semgrep
+      image: semgrep/semgrep:1.164.0@sha256:207983631beecdbe7fa29196c7f4a7a5f29033933cdb76c687ce4a672e07618d
     
     if: (github.actor != 'dependabot[bot]')
     
@@ -38,6 +38,10 @@ jobs:
           github.com:443
           semgrep.dev:443
           
-    - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-    
+    - name: Checkout Code
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      with:
+        fetch-depth: 0
+        persist-credentials: false    
+        
     - run: semgrep scan --config auto
