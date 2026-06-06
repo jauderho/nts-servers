@@ -23,38 +23,44 @@ jobs:
     name: Lint Code Base
     # Set the agent to run on
     runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      statuses: write
 
     # Load all steps #
     steps:
       # Checkout the code base #
       - name: Harden Runner
-        uses: step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5 # v2.19.3
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           egress-policy: block
           disable-telemetry: true
-          allowed-endpoints: 
+          allowed-endpoints: >
             api.github.com:443
             api0.prismacloud.io:443
             files.pythonhosted.org:443
             github.com:443
+            mirror.gcr.io:443
             proxy.golang.org:443
             pypi.org:443
             zrdfepirv2blaprdstr01a.blob.core.windows.net:443
-          
+
       - name: Checkout Code
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+          persist-credentials: false
 
       # Run Linter against code base #
       - name: Lint Code Base
-        #uses: github/super-linter@b8641364ca9a79b3cf07f3c4c59a82709cd39094 # v4
-        uses: github/super-linter/slim@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1 # v7
-        #uses: docker://ghcr.io/github/super-linter:slim-v4
+        uses: super-linter/super-linter/slim@9e863354e3ff62e0727d37183162c4a88873df41 # v8.6.0
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JAVASCRIPT_DEFAULT_STYLE: prettier
-
+          VALIDATE_PYTHON_RUFF: true
+          VALIDATE_JAVASCRIPT_BIOME: true
+          VALIDATE_GITLEAKS: true
+          VALIDATE_CHECKOV: true
+          VALIDATE_GITHUB_ACTIONS_ZIZMOR: true
