@@ -94,6 +94,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |svl1.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
 |svl2.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
 ||
+|mirror.mdapi.ch|2|Switzerland|Martino Dell'Ambrogio||
 |[ntp.3eck.net](https://ntp.3eck.net)|3|Switzerland|Adrian Zaugg||
 |[ntp.trifence.ch](https://ntp.trifence.ch)|2|Switzerland|Marcel Waldvogel||
 |[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||

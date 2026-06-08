@@ -231,6 +231,10 @@ address = "svl2.nts.netnod.se"
 # Switzerland
 [[source]]
 mode = "nts"
+address = "mirror.mdapi.ch"
+
+[[source]]
+mode = "nts"
 address = "ntp.3eck.net"
 
 [[source]]

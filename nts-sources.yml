@@ -404,6 +404,12 @@ servers:
   notes: For users near Sundsvall
   vm: false
 
+- hostname: mirror.mdapi.ch
+  stratum: 2
+  location: Switzerland
+  owner: Martino Dell'Ambrogio
+  vm: false
+
 - hostname: '[ntp.3eck.net](https://ntp.3eck.net)'
   stratum: 3
   location: Switzerland
