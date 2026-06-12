@@ -12,5 +12,9 @@ fi
 # Assign the argument to a variable
 NTS_SERVER=$1
 
-# Run the chronyd command with the argument
-chronyd -Q -t 5 "server $NTS_SERVER iburst nts maxsamples 1"
+# Prefer rkik if available, fall back to chronyd
+if command -v rkik &>/dev/null; then
+  rkik --nts "$NTS_SERVER"
+else
+  chronyd -Q -t 5 "server $NTS_SERVER iburst nts maxsamples 1"
+fi
