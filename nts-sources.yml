@@ -321,6 +321,12 @@ servers:
   owner: Rick Betting
   vm: false
 
+- hostname: '[0.ntp.bksp.in](https://0.ntp.bksp.in)'
+  stratum: 1
+  location: Russia
+  owner: '[B4CKSP4CE](https://bksp.in)'
+  vm: false
+
 - hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
   stratum: 3
   location: Singapore

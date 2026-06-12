@@ -80,6 +80,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntppool2.time.nl|1|Netherlands|TimeNL||
 |nts.decepticon.space|1|Netherlands|Rick Betting||
 ||
+|[0.ntp.bksp.in](https://0.ntp.bksp.in)|1|Russia|[B4CKSP4CE](https://bksp.in)||
+||
 |[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)|3|Singapore|Sanjeev Gupta||
 ||
 |nts.netnod.se|1|Sweden|Netnod|Anycast|
