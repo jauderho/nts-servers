@@ -458,6 +458,12 @@ servers:
   owner: Ueli Heuer
   vm: false
 
+- hostname: solarium.stellata.ch
+  stratum: 2
+  location: Switzerland
+  owner: stellata.ch
+  vm: true
+
 - hostname: time.signorini.ch
   stratum: 1
   location: Switzerland

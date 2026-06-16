@@ -393,5 +393,9 @@ address = "ntp7.rdem-systems.com"
 
 [[source]]
 mode = "nts"
+address = "solarium.stellata.ch"
+
+[[source]]
+mode = "nts"
 address = "time.xargs.org"
 
