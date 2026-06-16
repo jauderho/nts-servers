@@ -423,7 +423,7 @@ servers:
   vm: false
 
 - hostname: mirror.mdapi.ch
-  stratum: 2
+  stratum: 1
   location: Switzerland
   owner: Martino Dell'Ambrogio
   vm: false
