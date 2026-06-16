@@ -176,6 +176,12 @@ mode = "nts"
 address = "nts.decepticon.space"
 
 
+# Russia
+[[source]]
+mode = "nts"
+address = "0.ntp.bksp.in"
+
+
 # Singapore
 [[source]]
 mode = "nts"
