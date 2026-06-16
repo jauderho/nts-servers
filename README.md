@@ -53,6 +53,9 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[time3.mbix.ca](https://time3.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
 |[time.web-clock.ca](https://time.web-clock.ca)|1|Canada|Community||
 ||
+|ntp.neu.edu.cn|1|China|[Northeastern University](https://www.neu.edu.cn)||
+|ntp1.neu.edu.cn|1|China|[Northeastern University](https://www.neu.edu.cn)||
+||
 |[nts1.ntp.hr](http://www.ntp.hr)|1|Croatia|UNIZG FER REMLAB|[rem.fer.hr](https://rem.fer.hr)|
 |[nts2.ntp.hr](http://www.ntp.hr)|1|Croatia|UNIZG FER REMLAB|[rem.fer.hr](https://rem.fer.hr)|
 ||
