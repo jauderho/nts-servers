@@ -525,6 +525,13 @@ servers:
   notes: IPv4 and IPv6
   vm: false
 
+- hostname: nts.amethyst.name
+  stratum: 2
+  location: US
+  owner: Naomi Persephone Amethyst (AS53546)
+  notes: Raleigh, NC
+  vm: false
+
 - hostname: ntp1.glypnod.com
   stratum: 2
   location: US

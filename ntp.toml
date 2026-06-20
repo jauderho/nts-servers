@@ -311,6 +311,10 @@ address = "ntp3.cam.ac.uk"
 # US
 [[source]]
 mode = "nts"
+address = "nts.amethyst.name"
+
+[[source]]
+mode = "nts"
 address = "ntp1.glypnod.com"
 
 [[source]]

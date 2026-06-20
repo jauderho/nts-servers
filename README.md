@@ -116,6 +116,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntp2.cam.ac.uk|2|UK|University of Cambridge, Department of Engineering|IPv4 and IPv6|
 |ntp3.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
 ||
+|nts.amethyst.name|2|US|Naomi Persephone Amethyst (AS53546)|Raleigh, NC|
 |ntp1.glypnod.com|2|US|Hal Murray|San Francisco|
 |ohio.time.system76.com|2|US|System76||
 |oregon.time.system76.com|2|US|System76||
