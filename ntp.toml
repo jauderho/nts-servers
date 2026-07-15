@@ -183,6 +183,14 @@ address = "ntppool2.time.nl"
 
 [[source]]
 mode = "nts"
+address = "ntppool3.time.nl"
+
+[[source]]
+mode = "nts"
+address = "ntppool3.time.nl"
+
+[[source]]
+mode = "nts"
 address = "nts.decepticon.space"
 
 
@@ -398,6 +406,10 @@ address = "ntp9.rdem-systems.com"
 [[source]]
 mode = "nts"
 address = "ntp7.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "any.time.nl"
 
 [[source]]
 mode = "nts"

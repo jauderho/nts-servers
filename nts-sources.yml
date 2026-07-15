@@ -318,14 +318,37 @@ servers:
 - hostname: ntppool1.time.nl
   stratum: 1
   location: Netherlands
-  owner: TimeNL
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
   vm: false
 
 - hostname: ntppool2.time.nl
   stratum: 1
   location: Netherlands
-  owner: TimeNL
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
   vm: false
+
+- hostname: ntppool3.time.nl
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
+  vm: false
+
+- hostname: ntppool3.time.nl
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
+  vm: false
+
+- hostname: any.time.nl
+  stratum: 2
+  location: Global
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Anycast
+  vm: true
 
 - hostname: nts.decepticon.space
   stratum: 1
