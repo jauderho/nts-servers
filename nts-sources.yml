@@ -480,7 +480,7 @@ servers:
   stratum: 2
   location: UK
   owner: BeatQuantum
-  notes: IPv4 and IPv6
+  notes: IPv4 and IPv6, Pure/Hybrid PQC NTS-KE
   vm: true
 
 - hostname: ntp2.glypnod.com
