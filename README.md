@@ -144,6 +144,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
+|beatquantum.com|2|UK|BeatQuantum|IPv4 and IPv6, Pure/Hybrid PQC NTS-KE|
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History
