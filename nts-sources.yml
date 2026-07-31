@@ -224,6 +224,13 @@ servers:
   notes: "TH2 Paris, IPv4 and IPv6"
   vm: true
 
+- hostname: ntp12.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Lauterbourg, IPv4 and IPv6"
+  vm: true
+
 - hostname: ntp3.fau.de
   stratum: 1
   location: Germany
@@ -242,7 +249,7 @@ servers:
   location: Germany
   owner: "[RDEM Systems](https://www.rdem-systems.com)"
   notes: "Frankfurt area, IPv4 and IPv6"
-  vm: true
+  vm: false
 
 - hostname: ptbtime1.ptb.de
   stratum: 1
