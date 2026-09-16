@@ -67,6 +67,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |ntp3.fau.de|1|Germany|FAU||
 |ntp3.ipv6.fau.de|1|Germany|FAU|IPv6 only|
+|ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
 |ptbtime1.ptb.de|1|Germany|PTB||
 |ptbtime2.ptb.de|1|Germany|PTB||
 |ptbtime3.ptb.de|1|Germany|PTB||
@@ -135,6 +136,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp1.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |ntp10.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
 |ntp11.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, IPv4 and IPv6|
+|ntp12.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lauterbourg, IPv4 and IPv6|
 |ntp2.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |ntp3.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
 |ntp4.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
@@ -142,7 +144,6 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp6.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
-|ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
 
