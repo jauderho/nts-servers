@@ -79,8 +79,10 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |2.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
 |3.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
 |4.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
-|ntppool1.time.nl|1|Netherlands|TimeNL||
-|ntppool2.time.nl|1|Netherlands|TimeNL||
+|ntppool1.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool2.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool3.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool3.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
 |nts.decepticon.space|1|Netherlands|Rick Betting||
 ||
 |[0.ntp.bksp.in](https://0.ntp.bksp.in)|1|Russia|[B4CKSP4CE](https://bksp.in)||
@@ -143,6 +145,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
+|any.time.nl|2|Global|[TimeNL](https://nts.time.nl)|Anycast|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
 
