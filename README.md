@@ -106,6 +106,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |[ntp01.maillink.ch](https://ntp01.maillink.ch)|1|Switzerland|Ueli Heuer||
 |[ntp02.maillink.ch](https://ntp02.maillink.ch)|1|Switzerland|Ueli Heuer||
 |[ntp03.maillink.ch](https://ntp03.maillink.ch)|1|Switzerland|Ueli Heuer||
+|[ibksturm.synology.me](1)|3|Switzerland|Andreas Ziegler aka ibksturm||
 |time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
 |ntp2.glypnod.com|2|UK|Hal Murray|London|
