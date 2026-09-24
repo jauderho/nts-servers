@@ -129,6 +129,10 @@ address = "ntp3.ipv6.fau.de"
 
 [[source]]
 mode = "nts"
+address = "ntp7.rdem-systems.com"
+
+[[source]]
+mode = "nts"
 address = "ptbtime1.ptb.de"
 
 [[source]]
@@ -369,6 +373,10 @@ address = "ntp11.rdem-systems.com"
 
 [[source]]
 mode = "nts"
+address = "ntp12.rdem-systems.com"
+
+[[source]]
+mode = "nts"
 address = "ntp2.rdem-systems.com"
 
 [[source]]
@@ -394,10 +402,6 @@ address = "ntp8.rdem-systems.com"
 [[source]]
 mode = "nts"
 address = "ntp9.rdem-systems.com"
-
-[[source]]
-mode = "nts"
-address = "ntp7.rdem-systems.com"
 
 [[source]]
 mode = "nts"
