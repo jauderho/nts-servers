@@ -148,6 +148,12 @@ servers:
   owner: miuku.net
   vm: false
 
+- hostname: '[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)'
+  stratum: 2
+  location: France
+  owner: Paris Observatory
+  vm: false
+
 - hostname: paris.time.system76.com
   stratum: 2
   location: France

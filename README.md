@@ -63,6 +63,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |ntp.miuku.net|3|Finland|miuku.net||
 ||
+|[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)|2|France|Paris Observatory||
 |paris.time.system76.com|2|France|System76||
 ||
 |ntp3.fau.de|1|Germany|FAU||
