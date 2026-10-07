@@ -405,5 +405,9 @@ address = "solarium.stellata.ch"
 
 [[source]]
 mode = "nts"
+address = "beatquantum.com"
+
+[[source]]
+mode = "nts"
 address = "time.xargs.org"
 
