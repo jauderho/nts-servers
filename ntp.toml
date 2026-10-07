@@ -7,6 +7,10 @@
 mode = "nts"
 address = "time.cloudflare.com"
 
+[[source]]
+mode = "nts"
+address = "any.time.nl"
+
 
 # Distro
 [[source]]
@@ -414,10 +418,6 @@ address = "ntp8.rdem-systems.com"
 [[source]]
 mode = "nts"
 address = "ntp9.rdem-systems.com"
-
-[[source]]
-mode = "nts"
-address = "any.time.nl"
 
 [[source]]
 mode = "nts"

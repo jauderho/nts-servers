@@ -6,6 +6,13 @@ servers:
   notes: Anycast
   vm: false
 
+- hostname: any.time.nl
+  stratum: 2
+  location: All
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Anycast
+  vm: false
+
 - hostname: 1.ntp.ubuntu.com
   stratum: 2
   location: Distro
@@ -355,13 +362,6 @@ servers:
   owner: '[TimeNL](https://nts.time.nl)'
   notes: Part of ntspool.time.nl
   vm: false
-
-- hostname: any.time.nl
-  stratum: 2
-  location: Global
-  owner: '[TimeNL](https://nts.time.nl)'
-  notes: Anycast
-  vm: true
 
 - hostname: nts.decepticon.space
   stratum: 1

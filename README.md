@@ -32,6 +32,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
+|any.time.nl|2|All|[TimeNL](https://nts.time.nl)|Anycast|
 ||
 |1.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
 |2.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
@@ -147,7 +148,6 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp6.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
-|any.time.nl|2|Global|[TimeNL](https://nts.time.nl)|Anycast|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
 |beatquantum.com|2|UK|BeatQuantum|IPv4 and IPv6, Pure/Hybrid PQC NTS-KE|
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
