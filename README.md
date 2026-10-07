@@ -127,6 +127,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||
 |[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
+|[time-gps.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|
 |[time.cifelli.xyz](https://time.cifelli.xyz)|2|US|Mike Cifelli||
 |[time.txryan.com](https://time.txryan.com)|2|US|Tanner Ryan||
 |[ntp1.wiktel.com](https://ntp1.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
@@ -150,6 +151,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
 |beatquantum.com|2|UK|BeatQuantum|IPv4 and IPv6, Pure/Hybrid PQC NTS-KE|
+|[time.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Chicago|
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History

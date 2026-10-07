@@ -355,6 +355,10 @@ address = "stratum1.time.cifelli.xyz"
 
 [[source]]
 mode = "nts"
+address = "time-gps.globalentry.systems"
+
+[[source]]
+mode = "nts"
 address = "time.cifelli.xyz"
 
 [[source]]
@@ -426,6 +430,10 @@ address = "solarium.stellata.ch"
 [[source]]
 mode = "nts"
 address = "beatquantum.com"
+
+[[source]]
+mode = "nts"
+address = "time.globalentry.systems"
 
 [[source]]
 mode = "nts"
