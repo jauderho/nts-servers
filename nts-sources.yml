@@ -148,6 +148,12 @@ servers:
   owner: miuku.net
   vm: false
 
+- hostname: '[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)'
+  stratum: 2
+  location: France
+  owner: Paris Observatory
+  vm: false
+
 - hostname: paris.time.system76.com
   stratum: 2
   location: France
@@ -224,6 +230,13 @@ servers:
   notes: "TH2 Paris, IPv4 and IPv6"
   vm: true
 
+- hostname: ntp12.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Lauterbourg, IPv4 and IPv6"
+  vm: true
+
 - hostname: ntp3.fau.de
   stratum: 1
   location: Germany
@@ -242,7 +255,7 @@ servers:
   location: Germany
   owner: "[RDEM Systems](https://www.rdem-systems.com)"
   notes: "Frankfurt area, IPv4 and IPv6"
-  vm: true
+  vm: false
 
 - hostname: ptbtime1.ptb.de
   stratum: 1
@@ -498,6 +511,13 @@ servers:
   location: Switzerland
   owner: Attilio Signorini
   vm: false
+
+- hostname: beatquantum.com
+  stratum: 2
+  location: UK
+  owner: BeatQuantum
+  notes: IPv4 and IPv6, Pure/Hybrid PQC NTS-KE
+  vm: true
 
 - hostname: ntp2.glypnod.com
   stratum: 2

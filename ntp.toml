@@ -115,6 +115,10 @@ address = "ntp.miuku.net"
 # France
 [[source]]
 mode = "nts"
+address = "ntp.obspm.fr"
+
+[[source]]
+mode = "nts"
 address = "paris.time.system76.com"
 
 
@@ -126,6 +130,10 @@ address = "ntp3.fau.de"
 [[source]]
 mode = "nts"
 address = "ntp3.ipv6.fau.de"
+
+[[source]]
+mode = "nts"
+address = "ntp7.rdem-systems.com"
 
 [[source]]
 mode = "nts"
@@ -377,6 +385,10 @@ address = "ntp11.rdem-systems.com"
 
 [[source]]
 mode = "nts"
+address = "ntp12.rdem-systems.com"
+
+[[source]]
+mode = "nts"
 address = "ntp2.rdem-systems.com"
 
 [[source]]
@@ -405,15 +417,15 @@ address = "ntp9.rdem-systems.com"
 
 [[source]]
 mode = "nts"
-address = "ntp7.rdem-systems.com"
-
-[[source]]
-mode = "nts"
 address = "any.time.nl"
 
 [[source]]
 mode = "nts"
 address = "solarium.stellata.ch"
+
+[[source]]
+mode = "nts"
+address = "beatquantum.com"
 
 [[source]]
 mode = "nts"
