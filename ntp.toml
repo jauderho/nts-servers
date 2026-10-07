@@ -187,7 +187,7 @@ address = "ntppool3.time.nl"
 
 [[source]]
 mode = "nts"
-address = "ntppool3.time.nl"
+address = "ntppool4.time.nl"
 
 [[source]]
 mode = "nts"

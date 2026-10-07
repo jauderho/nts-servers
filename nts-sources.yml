@@ -336,7 +336,7 @@ servers:
   notes: Part of ntspool.time.nl
   vm: false
 
-- hostname: ntppool3.time.nl
+- hostname: ntppool4.time.nl
   stratum: 1
   location: Netherlands
   owner: '[TimeNL](https://nts.time.nl)'

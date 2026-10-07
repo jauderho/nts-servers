@@ -82,7 +82,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntppool1.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
 |ntppool2.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
 |ntppool3.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
-|ntppool3.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool4.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
 |nts.decepticon.space|1|Netherlands|Rick Betting||
 ||
 |[0.ntp.bksp.in](https://0.ntp.bksp.in)|1|Russia|[B4CKSP4CE](https://bksp.in)||
