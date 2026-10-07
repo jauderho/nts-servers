@@ -115,6 +115,10 @@ address = "ntp.miuku.net"
 # France
 [[source]]
 mode = "nts"
+address = "ntp.obspm.fr"
+
+[[source]]
+mode = "nts"
 address = "paris.time.system76.com"
 
 
