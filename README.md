@@ -32,6 +32,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |Hostname|Stratum|Location|Owner|Notes|
 |---|:---:|---|---|---|
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
+|any.time.nl|2|All|[TimeNL](https://nts.time.nl)|Anycast|
 ||
 |1.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
 |2.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
@@ -81,8 +82,10 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |2.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
 |3.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
 |4.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
-|ntppool1.time.nl|1|Netherlands|TimeNL||
-|ntppool2.time.nl|1|Netherlands|TimeNL||
+|ntppool1.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool2.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool3.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool4.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
 |nts.decepticon.space|1|Netherlands|Rick Betting||
 ||
 |[0.ntp.bksp.in](https://0.ntp.bksp.in)|1|Russia|[B4CKSP4CE](https://bksp.in)||
