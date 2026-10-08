@@ -606,11 +606,25 @@ servers:
   owner: Mike Cifelli
   vm: false
 
+- hostname: '[time-gps.globalentry.systems](https://time.globalentry.systems)'
+  stratum: 2
+  location: US
+  owner: Global Entry Systems
+  notes: Colorado. GPS/PPS stratum 1 upstream
+  vm: false
+
 - hostname: '[time.cifelli.xyz](https://time.cifelli.xyz)'
   stratum: 2
   location: US
   owner: Mike Cifelli
   vm: false
+
+- hostname: '[time.globalentry.systems](https://time.globalentry.systems)'
+  stratum: 2
+  location: US
+  owner: Global Entry Systems
+  notes: Chicago
+  vm: true
 
 - hostname: '[time.txryan.com](https://time.txryan.com)'
   stratum: 2
