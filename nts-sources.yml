@@ -568,6 +568,13 @@ servers:
   notes: IPv4 and IPv6
   vm: false
 
+- hostname: nts.dogporkcow.com
+  stratum: 2
+  location: United States
+  owner: dogporkcow
+  notes: US East, IPv4 and IPv6
+  vm: true
+  
 - hostname: nts.amethyst.name
   stratum: 2
   location: US
