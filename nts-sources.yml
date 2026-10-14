@@ -570,11 +570,11 @@ servers:
 
 - hostname: nts.dogporkcow.com
   stratum: 2
-  location: United States
+  location: US
   owner: dogporkcow
-  notes: US East, IPv4 and IPv6
+  notes: US East
   vm: true
-  
+
 - hostname: nts.amethyst.name
   stratum: 2
   location: US
