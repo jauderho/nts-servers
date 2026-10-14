@@ -433,6 +433,10 @@ address = "beatquantum.com"
 
 [[source]]
 mode = "nts"
+address = "nts.dogporkcow.com"
+
+[[source]]
+mode = "nts"
 address = "time.globalentry.systems"
 
 [[source]]
