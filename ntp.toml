@@ -363,6 +363,10 @@ address = "time.cifelli.xyz"
 
 [[source]]
 mode = "nts"
+address = "time.sshlab.net"
+
+[[source]]
+mode = "nts"
 address = "time.txryan.com"
 
 [[source]]

@@ -633,6 +633,13 @@ servers:
   notes: Chicago
   vm: true
 
+- hostname: time.sshlab.net
+  stratum: 2
+  location: US
+  owner: Z&D
+  notes: Pennsylvania, NIST/USNO upstream
+  vm: false
+
 - hostname: '[time.txryan.com](https://time.txryan.com)'
   stratum: 2
   location: US
