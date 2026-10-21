@@ -25,13 +25,24 @@ def extract_hostname(hostname_field):
     return hostname_field
 
 
+HOSTNAME_RE = re.compile(r"^(?=.{1,253}$)[A-Za-z0-9]([A-Za-z0-9.-]*[A-Za-z0-9])?$")
+
+
 def verify_ntp_server(hostname):
+    # Hostnames come from untrusted PRs: validate, and never use a shell
+    if not HOSTNAME_RE.match(hostname):
+        print(f"Skipping invalid hostname: {hostname!r}\n")
+        return
     print(f"Verifying {hostname} ...", end="", flush=True)
-    command = f"chronyd -Q -t 5 'server {hostname} iburst nts maxsamples 1'"
+    command = [
+        "chronyd",
+        "-Q",
+        "-t",
+        "5",
+        f"server {hostname} iburst nts maxsamples 1",
+    ]
     try:
-        result = subprocess.run(
-            command, shell=True, check=True, capture_output=True, text=True
-        )
+        result = subprocess.run(command, check=True, capture_output=True, text=True)
         print(" Good")
         print(result.stdout.strip())
     except subprocess.CalledProcessError as e:
