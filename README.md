@@ -150,8 +150,11 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp6.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
+|[ntp-jp.aki.quest](https://ntp-jp.aki.quest)|2|Japan|aki|Osaka, IPv4|
+|[ntp-sg.aki.quest](https://ntp-sg.aki.quest)|2|Singapore|aki|IPv4|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
 |beatquantum.com|2|UK|BeatQuantum|IPv4 and IPv6, Pure/Hybrid PQC NTS-KE|
+|[ntp-us.aki.quest](https://ntp-us.aki.quest)|2|US|aki|Phoenix, IPv4 and IPv6|
 |nts.dogporkcow.com|2|US|dogporkcow|US East|
 |[time.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Chicago|
 |[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
