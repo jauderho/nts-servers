@@ -307,6 +307,13 @@ servers:
   notes: IPv4 and IPv6
   vm: false
 
+- hostname: '[ntp-jp.aki.quest](https://ntp-jp.aki.quest)'
+  stratum: 2
+  location: Japan
+  owner: aki
+  notes: Osaka, IPv4
+  vm: true
+
 - hostname: 1.nts.nothingtohide.nl
   stratum: 2
   location: Netherlands
@@ -374,6 +381,13 @@ servers:
   location: Russia
   owner: '[B4CKSP4CE](https://bksp.in)'
   vm: false
+
+- hostname: '[ntp-sg.aki.quest](https://ntp-sg.aki.quest)'
+  stratum: 2
+  location: Singapore
+  owner: aki
+  notes: IPv4
+  vm: true
 
 - hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
   stratum: 3
@@ -581,6 +595,13 @@ servers:
   owner: Naomi Persephone Amethyst (AS53546)
   notes: Raleigh, NC
   vm: false
+
+- hostname: '[ntp-us.aki.quest](https://ntp-us.aki.quest)'
+  stratum: 2
+  location: US
+  owner: aki
+  notes: Phoenix, IPv4 and IPv6
+  vm: true
 
 - hostname: ntp1.glypnod.com
   stratum: 2

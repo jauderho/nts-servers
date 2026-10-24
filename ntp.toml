@@ -429,11 +429,23 @@ address = "ntp9.rdem-systems.com"
 
 [[source]]
 mode = "nts"
+address = "ntp-jp.aki.quest"
+
+[[source]]
+mode = "nts"
+address = "ntp-sg.aki.quest"
+
+[[source]]
+mode = "nts"
 address = "solarium.stellata.ch"
 
 [[source]]
 mode = "nts"
 address = "beatquantum.com"
+
+[[source]]
+mode = "nts"
+address = "ntp-us.aki.quest"
 
 [[source]]
 mode = "nts"
