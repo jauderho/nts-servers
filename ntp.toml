@@ -218,6 +218,12 @@ mode = "nts"
 address = "ntpmon.dcs1.biz"
 
 
+# Spain
+[[source]]
+mode = "nts"
+address = "ntp.movi2.net"
+
+
 # Sweden
 [[source]]
 mode = "nts"
