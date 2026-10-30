@@ -92,6 +92,8 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)|3|Singapore|Sanjeev Gupta||
 ||
+|ntp.movi2.net|1|Spain|Víctor Soriano|GPS/PPS, IPv4|
+||
 |nts.netnod.se|1|Sweden|Netnod|Anycast|
 |gbg1.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|
 |gbg2.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|

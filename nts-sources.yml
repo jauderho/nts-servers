@@ -395,6 +395,13 @@ servers:
   owner: Sanjeev Gupta
   vm: false
 
+- hostname: ntp.movi2.net
+  stratum: 1
+  location: Spain
+  owner: Víctor Soriano
+  notes: GPS/PPS, IPv4
+  vm: false
+
 - hostname: nts.netnod.se
   stratum: 1
   location: Sweden
