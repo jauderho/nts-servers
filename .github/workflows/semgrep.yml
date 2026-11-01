@@ -1,0 +1,47 @@
+name: Semgrep
+
+on:
+  pull_request: {}
+  push:
+    branches:
+    - main
+    - master
+    paths:
+    - .github/workflows/semgrep.yml
+  schedule:
+  - cron: '0 0 * * 0'
+  workflow_call:
+
+permissions: read-all
+
+jobs:
+  semgrep:
+    name: Scan
+    runs-on: ubuntu-26.04
+    permissions:
+      # Needed to upload the results to code-scanning dashboard.
+      security-events: write
+      actions: read
+      contents: read      
+    container:
+      image: semgrep/semgrep:1.164.0@sha256:207983631beecdbe7fa29196c7f4a7a5f29033933cdb76c687ce4a672e07618d
+    
+    if: (github.actor != 'dependabot[bot]')
+    
+    steps:
+    - name: Harden Runner
+      uses: step-security/harden-runner@46b06cea07f9e64621fdf066ba77ac6915163d43 # v2.22.3
+      with:
+        egress-policy: block
+        disable-telemetry: true
+        allowed-endpoints: 
+          github.com:443
+          semgrep.dev:443
+          
+    - name: Checkout Code
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        fetch-depth: 0
+        persist-credentials: false    
+        
+    - run: semgrep scan --config auto

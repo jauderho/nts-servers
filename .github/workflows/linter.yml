@@ -1,0 +1,66 @@
+## Linter GitHub Actions ##
+name: Lint Code Base
+
+# Documentation:
+# https://help.github.com/en/articles/workflow-syntax-for-github-actions
+
+# Start the job on all push #
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+#concurrency:
+#  group: ${{ github.workflow }}
+#  cancel-in-progress: true
+
+permissions: read-all
+
+# Set the Job #
+jobs:
+  build:
+    # Name the Job
+    name: Lint Code Base
+    # Set the agent to run on
+    runs-on: ubuntu-26.04
+    permissions:
+      contents: read
+      statuses: write
+
+    # Load all steps #
+    steps:
+      # Checkout the code base #
+      - name: Harden Runner
+        uses: step-security/harden-runner@46b06cea07f9e64621fdf066ba77ac6915163d43 # v2.22.3
+        with:
+          egress-policy: block
+          disable-telemetry: true
+          allowed-endpoints: >
+            api.github.com:443
+            api0.prismacloud.io:443
+            files.pythonhosted.org:443
+            github.com:443
+            mirror.gcr.io:443
+            proxy.golang.org:443
+            pypi.org:443
+            zrdfepirv2blaprdstr01a.blob.core.windows.net:443
+
+      - name: Checkout Code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Full git history is needed to get a proper list of changed files within `super-linter`
+          fetch-depth: 0
+          persist-credentials: false
+
+      # Run Linter against code base #
+      - name: Lint Code Base
+        uses: super-linter/super-linter/slim@2da136927bd4a73596db63044b504547c62cb854 # v9.0.0
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_PYTHON_RUFF: true
+          VALIDATE_JAVASCRIPT_BIOME: true
+          VALIDATE_GITLEAKS: true
+          VALIDATE_CHECKOV: true
+          VALIDATE_GITHUB_ACTIONS_ZIZMOR: true

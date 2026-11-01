@@ -1,0 +1,171 @@
+# NTP servers with NTS support
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jauderho/nts-servers)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jauderho/nts-servers/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jauderho/nts-servers) 
+
+**WARNING:** There is no endorsement of any server included in this list. Please carefully vet before usage.
+
+This is intended to bootstrap a list of NTP servers with NTS support given that NTS support is not currently widespread. Visit the companion repo of [public NTP servers](https://github.com/jauderho/public-ntp-servers).
+
+## Contribute
+- Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
+- PR will not be merged until connectivity to server can be verified. Scripts are available in the `scripts/` subfolder to assist with this
+- New entries should be grouped by location then in alphabetical order
+- Please specify if server is virtualized
+- Contributions and updates to the list are welcome via pull requests to [nts-sources.yml](https://github.com/jauderho/nts-servers/blob/main/nts-sources.yml) to modify the `README.md`, `chrony.conf`, and `ntp.toml`
+  - Run `./scripts/ntsServerConverter.py nts-sources.yml` to update the other files after changing nts-sources.yml
+  - Use `git diff origin README.md chrony.conf ntp.toml` to verify that you have a clean update before submitting a PR
+- AI generated documentation: https://deepwiki.com/jauderho/nts-servers
+
+## Usage
+- This repository provides NTS server lists in multiple formats:
+  - For use with chrony - [chrony.conf](chrony.conf)
+  - For use with ntpd-rs - [ntp.toml](ntp.toml)
+- Before using anycast NTP servers, make sure that you understand the [limitations](https://www.rfc-editor.org/rfc/rfc8633.html#page-17)
+- Use [at least 4 time sources](https://support.ntp.org/Support/SelectingOffsiteNTPServers#Upstream_Time_Server_Quantity) as a best practice. No more than 10 should be used
+- It is not possible to mix and match NTP and NTS at this time. Only NTS servers should be specified as the NTP entries will not be used
+- Generally, virtualized systems do not make for good time sources as there is too much jitter. Submissions should strive to ensure that high quality time is available
+- Verify NTS server connectivity using the following command before submitting a pull request
+  - `./scripts/ntsCheck.sh <NTS_SERVER_NAME>` 
+
+## The List
+|Hostname|Stratum|Location|Owner|Notes|
+|---|:---:|---|---|---|
+|time.cloudflare.com|3|All|Cloudflare|Anycast|
+|any.time.nl|2|All|[TimeNL](https://nts.time.nl)|Anycast|
+||
+|1.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+|2.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+|3.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+|4.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
+||
+|[nts.teambelgium.net](https://ntp.teambelgium.net)|1|Belgium|Team Belgium||
+||
+|a.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|b.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|c.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|d.st1.ntp.br|2|Brazil|[ntp.br](https://ntp.br)||
+|gps.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
+|brazil.time.system76.com|2|Brazil|System76||
+|time.bolha.one|1|Brazil|[Bolhinha](https://info.bolha.one/servicos/ntp/)||
+||
+|[time1.mbix.ca](https://time1.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time2.mbix.ca](https://time2.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time3.mbix.ca](https://time3.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
+|[time.web-clock.ca](https://time.web-clock.ca)|1|Canada|Community||
+||
+|ntp.neu.edu.cn|1|China|[Northeastern University](https://www.neu.edu.cn)||
+|ntp1.neu.edu.cn|1|China|[Northeastern University](https://www.neu.edu.cn)||
+||
+|[nts1.ntp.hr](http://www.ntp.hr)|1|Croatia|UNIZG FER REMLAB|[rem.fer.hr](https://rem.fer.hr)|
+|[nts2.ntp.hr](http://www.ntp.hr)|1|Croatia|UNIZG FER REMLAB|[rem.fer.hr](https://rem.fer.hr)|
+||
+|[time.cincura.net](https://time.cincura.net)|1|Czech Republic|Jiří Činčura|IPv4 and IPv6|
+||
+|ntp.miuku.net|3|Finland|miuku.net||
+||
+|[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)|2|France|Paris Observatory||
+|paris.time.system76.com|2|France|System76||
+||
+|ntp3.fau.de|1|Germany|FAU||
+|ntp3.ipv6.fau.de|1|Germany|FAU|IPv6 only|
+|ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
+|ptbtime1.ptb.de|1|Germany|PTB||
+|ptbtime2.ptb.de|1|Germany|PTB||
+|ptbtime3.ptb.de|1|Germany|PTB||
+|ptbtime4.ptb.de|1|Germany|PTB||
+|[www.jabber-germany.de](https://www.jabber-germany.de)|2|Germany|Jörg Morbitzer||
+|[www.masters-of-cloud.de](https://www.masters-of-cloud.de)|2|Germany|Jörg Morbitzer||
+|ntp.nanosrvr.cloud|1|Germany|Michael Byczkowski|IPv4 and IPv6|
+||
+|1.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|2.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|3.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|4.nts.nothingtohide.nl|2|Netherlands|Nothing to hide|IPv4 and IPv6|
+|ntppool1.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool2.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool3.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|ntppool4.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
+|nts.decepticon.space|1|Netherlands|Rick Betting||
+||
+|[0.ntp.bksp.in](https://0.ntp.bksp.in)|1|Russia|[B4CKSP4CE](https://bksp.in)||
+||
+|[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)|3|Singapore|Sanjeev Gupta||
+||
+|ntp.movi2.net|1|Spain|Víctor Soriano|GPS/PPS, IPv4|
+||
+|nts.netnod.se|1|Sweden|Netnod|Anycast|
+|gbg1.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|
+|gbg2.nts.netnod.se|1|Sweden|Netnod|For users near Göteborg|
+|lul1.nts.netnod.se|1|Sweden|Netnod|For users near Luleå|
+|lul2.nts.netnod.se|1|Sweden|Netnod|For users near Luleå|
+|mmo1.nts.netnod.se|1|Sweden|Netnod|For users near Malmö|
+|mmo2.nts.netnod.se|1|Sweden|Netnod|For users near Malmö|
+|sth1.nts.netnod.se|1|Sweden|Netnod|For users near Stockholm|
+|sth2.nts.netnod.se|1|Sweden|Netnod|For users near Stockholm|
+|svl1.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
+|svl2.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
+||
+|mirror.mdapi.ch|1|Switzerland|Martino Dell'Ambrogio||
+|[ntp.3eck.net](https://ntp.3eck.net)|3|Switzerland|Adrian Zaugg||
+|[ntp.trifence.ch](https://ntp.trifence.ch)|2|Switzerland|Marcel Waldvogel||
+|[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||
+|[ntp01.maillink.ch](https://ntp01.maillink.ch)|1|Switzerland|Ueli Heuer||
+|[ntp02.maillink.ch](https://ntp02.maillink.ch)|1|Switzerland|Ueli Heuer||
+|[ntp03.maillink.ch](https://ntp03.maillink.ch)|1|Switzerland|Ueli Heuer||
+|time.signorini.ch|1|Switzerland|Attilio Signorini||
+||
+|ntp2.glypnod.com|2|UK|Hal Murray|London|
+|ntp1.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
+|ntp2.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
+|ntp0.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
+|ntp1.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
+|ntp2.cam.ac.uk|2|UK|University of Cambridge, Department of Engineering|IPv4 and IPv6|
+|ntp3.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
+||
+|nts.amethyst.name|2|US|Naomi Persephone Amethyst (AS53546)|Raleigh, NC|
+|ntp1.glypnod.com|2|US|Hal Murray|San Francisco|
+|ohio.time.system76.com|2|US|System76||
+|oregon.time.system76.com|2|US|System76||
+|virginia.time.system76.com|2|US|System76||
+|[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
+|[time-gps.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|
+|[time.cifelli.xyz](https://time.cifelli.xyz)|2|US|Mike Cifelli||
+|time.sshlab.net|2|US|Z&D|Pennsylvania, NIST/USNO upstream|
+|[time.txryan.com](https://time.txryan.com)|2|US|Tanner Ryan||
+|[ntp1.wiktel.com](https://ntp1.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
+|[ntp2.wiktel.com](https://ntp2.wiktel.com)|1|US|Wikstrom Telephone Company|IPv4 and IPv6|
+
+The following servers are known to be virtualized and may be less accurate. YMMV.
+
+|Hostname|Stratum|Location|Owner|Notes|
+|---|:---:|---|---|---|
+|ntp.viarouge.net|2|France|Hubert Viarouge||
+|ntp1.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
+|ntp10.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
+|ntp11.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, IPv4 and IPv6|
+|ntp12.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lauterbourg, IPv4 and IPv6|
+|ntp2.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
+|ntp3.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
+|ntp4.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
+|ntp5.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
+|ntp6.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
+|ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
+|ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
+|[ntp-jp.aki.quest](https://ntp-jp.aki.quest)|2|Japan|aki|Osaka, IPv4|
+|[ntp-sg.aki.quest](https://ntp-sg.aki.quest)|2|Singapore|aki|IPv4|
+|solarium.stellata.ch|2|Switzerland|stellata.ch||
+|beatquantum.com|2|UK|BeatQuantum|IPv4 and IPv6, Pure/Hybrid PQC NTS-KE|
+|[ntp-us.aki.quest](https://ntp-us.aki.quest)|2|US|aki|Phoenix, IPv4 and IPv6|
+|nts.dogporkcow.com|2|US|dogporkcow|US East|
+|[time.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Chicago|
+|[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
+
+## Star History
+<a href="https://star-history.com/#jauderho/nts-servers&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=jauderho/nts-servers&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=jauderho/nts-servers&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=jauderho/nts-servers&type=Date" />
+  </picture>
+</a>

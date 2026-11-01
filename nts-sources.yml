@@ -1,0 +1,702 @@
+servers:
+- hostname: time.cloudflare.com
+  stratum: 3
+  location: All
+  owner: Cloudflare
+  notes: Anycast
+  vm: false
+
+- hostname: any.time.nl
+  stratum: 2
+  location: All
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Anycast
+  vm: false
+
+- hostname: 1.ntp.ubuntu.com
+  stratum: 2
+  location: Distro
+  owner: Ubuntu
+  notes: Distro use only
+  vm: false
+
+- hostname: 2.ntp.ubuntu.com
+  stratum: 2
+  location: Distro
+  owner: Ubuntu
+  notes: Distro use only
+  vm: false
+
+- hostname: 3.ntp.ubuntu.com
+  stratum: 2
+  location: Distro
+  owner: Ubuntu
+  notes: Distro use only
+  vm: false
+
+- hostname: 4.ntp.ubuntu.com
+  stratum: 2
+  location: Distro
+  owner: Ubuntu
+  notes: Distro use only
+  vm: false
+
+- hostname: '[nts.teambelgium.net](https://ntp.teambelgium.net)'
+  stratum: 1
+  location: Belgium
+  owner: Team Belgium
+  vm: false
+
+- hostname: a.st1.ntp.br
+  stratum: 1
+  location: Brazil
+  owner: '[ntp.br](https://ntp.br)'
+  vm: false
+
+- hostname: b.st1.ntp.br
+  stratum: 1
+  location: Brazil
+  owner: '[ntp.br](https://ntp.br)'
+  vm: false
+
+- hostname: c.st1.ntp.br
+  stratum: 1
+  location: Brazil
+  owner: '[ntp.br](https://ntp.br)'
+  vm: false
+
+- hostname: d.st1.ntp.br
+  stratum: 2
+  location: Brazil
+  owner: '[ntp.br](https://ntp.br)'
+  vm: false
+
+- hostname: gps.ntp.br
+  stratum: 1
+  location: Brazil
+  owner: '[ntp.br](https://ntp.br)'
+  vm: false
+
+- hostname: brazil.time.system76.com
+  stratum: 2
+  location: Brazil
+  owner: System76
+  vm: false
+
+- hostname: time.bolha.one
+  stratum: 1
+  location: Brazil
+  owner: '[Bolhinha](https://info.bolha.one/servicos/ntp/)'
+  vm: false
+
+- hostname: '[time1.mbix.ca](https://time1.mbix.ca)'
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[time2.mbix.ca](https://time2.mbix.ca)'
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[time3.mbix.ca](https://time3.mbix.ca)'
+  stratum: 1
+  location: Canada
+  owner: Manitoba Internet Exchange
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[time.web-clock.ca](https://time.web-clock.ca)'
+  stratum: 1
+  location: Canada
+  owner: Community
+  vm: false
+
+- hostname: ntp.neu.edu.cn
+  stratum: 1
+  location: China
+  owner: "[Northeastern University](https://www.neu.edu.cn)"
+  vm: false
+
+- hostname: ntp1.neu.edu.cn
+  stratum: 1
+  location: China
+  owner: "[Northeastern University](https://www.neu.edu.cn)"
+  vm: false
+
+- hostname: '[nts1.ntp.hr](http://www.ntp.hr)'
+  stratum: 1
+  location: Croatia
+  owner: UNIZG FER REMLAB
+  notes: '[rem.fer.hr](https://rem.fer.hr)'
+  vm: false
+
+- hostname: '[nts2.ntp.hr](http://www.ntp.hr)'
+  stratum: 1
+  location: Croatia
+  owner: UNIZG FER REMLAB
+  notes: '[rem.fer.hr](https://rem.fer.hr)'
+  vm: false
+
+- hostname: '[time.cincura.net](https://time.cincura.net)'
+  stratum: 1
+  location: Czech Republic
+  owner: Jiří Činčura
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp.miuku.net
+  stratum: 3
+  location: Finland
+  owner: miuku.net
+  vm: false
+
+- hostname: '[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)'
+  stratum: 2
+  location: France
+  owner: Paris Observatory
+  vm: false
+
+- hostname: paris.time.system76.com
+  stratum: 2
+  location: France
+  owner: System76
+  vm: false
+
+- hostname: ntp1.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA4, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp2.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA4, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp3.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA3, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp4.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA3, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp5.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA5, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp6.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA5, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp8.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA5, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp9.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA4, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp10.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Equinix PA3, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp11.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "TH2 Paris, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp12.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Lauterbourg, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp3.fau.de
+  stratum: 1
+  location: Germany
+  owner: FAU
+  vm: false
+
+- hostname: ntp3.ipv6.fau.de
+  stratum: 1
+  location: Germany
+  owner: FAU
+  notes: IPv6 only
+  vm: false
+
+- hostname: ntp7.rdem-systems.com
+  stratum: 2
+  location: Germany
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Frankfurt area, IPv4 and IPv6"
+  vm: false
+
+- hostname: ptbtime1.ptb.de
+  stratum: 1
+  location: Germany
+  owner: PTB
+  vm: false
+
+- hostname: ptbtime2.ptb.de
+  stratum: 1
+  location: Germany
+  owner: PTB
+  vm: false
+
+- hostname: ptbtime3.ptb.de
+  stratum: 1
+  location: Germany
+  owner: PTB
+  vm: false
+
+- hostname: ptbtime4.ptb.de
+  stratum: 1
+  location: Germany
+  owner: PTB
+  vm: false
+
+- hostname: '[www.jabber-germany.de](https://www.jabber-germany.de)'
+  stratum: 2
+  location: Germany
+  owner: Jörg Morbitzer
+  vm: false
+
+- hostname: '[www.masters-of-cloud.de](https://www.masters-of-cloud.de)'
+  stratum: 2
+  location: Germany
+  owner: Jörg Morbitzer
+  vm: false
+
+- hostname: ntp.nanosrvr.cloud
+  stratum: 1
+  location: Germany
+  owner: Michael Byczkowski
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[ntp-jp.aki.quest](https://ntp-jp.aki.quest)'
+  stratum: 2
+  location: Japan
+  owner: aki
+  notes: Osaka, IPv4
+  vm: true
+
+- hostname: 1.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: 2.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: 3.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: 4.nts.nothingtohide.nl
+  stratum: 2
+  location: Netherlands
+  owner: Nothing to hide
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntppool1.time.nl
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
+  vm: false
+
+- hostname: ntppool2.time.nl
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
+  vm: false
+
+- hostname: ntppool3.time.nl
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
+  vm: false
+
+- hostname: ntppool4.time.nl
+  stratum: 1
+  location: Netherlands
+  owner: '[TimeNL](https://nts.time.nl)'
+  notes: Part of ntspool.time.nl
+  vm: false
+
+- hostname: nts.decepticon.space
+  stratum: 1
+  location: Netherlands
+  owner: Rick Betting
+  vm: false
+
+- hostname: '[0.ntp.bksp.in](https://0.ntp.bksp.in)'
+  stratum: 1
+  location: Russia
+  owner: '[B4CKSP4CE](https://bksp.in)'
+  vm: false
+
+- hostname: '[ntp-sg.aki.quest](https://ntp-sg.aki.quest)'
+  stratum: 2
+  location: Singapore
+  owner: aki
+  notes: IPv4
+  vm: true
+
+- hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
+  stratum: 3
+  location: Singapore
+  owner: Sanjeev Gupta
+  vm: false
+
+- hostname: ntp.movi2.net
+  stratum: 1
+  location: Spain
+  owner: Víctor Soriano
+  notes: GPS/PPS, IPv4
+  vm: false
+
+- hostname: nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: Anycast
+  vm: false
+
+- hostname: gbg1.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Göteborg
+  vm: false
+
+- hostname: gbg2.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Göteborg
+  vm: false
+
+- hostname: lul1.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Luleå
+  vm: false
+
+- hostname: lul2.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Luleå
+  vm: false
+
+- hostname: mmo1.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Malmö
+  vm: false
+
+- hostname: mmo2.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Malmö
+  vm: false
+
+- hostname: sth1.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Stockholm
+  vm: false
+
+- hostname: sth2.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Stockholm
+  vm: false
+
+- hostname: svl1.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Sundsvall
+  vm: false
+
+- hostname: svl2.nts.netnod.se
+  stratum: 1
+  location: Sweden
+  owner: Netnod
+  notes: For users near Sundsvall
+  vm: false
+
+- hostname: mirror.mdapi.ch
+  stratum: 1
+  location: Switzerland
+  owner: Martino Dell'Ambrogio
+  vm: false
+
+- hostname: '[ntp.3eck.net](https://ntp.3eck.net)'
+  stratum: 3
+  location: Switzerland
+  owner: Adrian Zaugg
+  vm: false
+
+- hostname: '[ntp.trifence.ch](https://ntp.trifence.ch)'
+  stratum: 2
+  location: Switzerland
+  owner: Marcel Waldvogel
+  vm: false
+
+- hostname: '[ntp.zeitgitter.net](https://ntp.zeitgitter.net)'
+  stratum: 2
+  location: Switzerland
+  owner: Marcel Waldvogel
+  vm: false
+
+- hostname: '[ntp01.maillink.ch](https://ntp01.maillink.ch)'
+  stratum: 1
+  location: Switzerland
+  owner: Ueli Heuer
+  vm: false
+
+- hostname: '[ntp02.maillink.ch](https://ntp02.maillink.ch)'
+  stratum: 1
+  location: Switzerland
+  owner: Ueli Heuer
+  vm: false
+
+- hostname: '[ntp03.maillink.ch](https://ntp03.maillink.ch)'
+  stratum: 1
+  location: Switzerland
+  owner: Ueli Heuer
+  vm: false
+
+- hostname: solarium.stellata.ch
+  stratum: 2
+  location: Switzerland
+  owner: stellata.ch
+  vm: true
+
+- hostname: time.signorini.ch
+  stratum: 1
+  location: Switzerland
+  owner: Attilio Signorini
+  vm: false
+
+- hostname: beatquantum.com
+  stratum: 2
+  location: UK
+  owner: BeatQuantum
+  notes: IPv4 and IPv6, Pure/Hybrid PQC NTS-KE
+  vm: true
+
+- hostname: ntp2.glypnod.com
+  stratum: 2
+  location: UK
+  owner: Hal Murray
+  notes: London
+  vm: false
+
+- hostname: ntp1.dmz.terryburton.co.uk
+  stratum: 1
+  location: UK
+  owner: Terry Burton
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp2.dmz.terryburton.co.uk
+  stratum: 1
+  location: UK
+  owner: Terry Burton
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp0.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, University Information Services (UIS)
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp1.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, University Information Services (UIS)
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp2.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, Department of Engineering
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: ntp3.cam.ac.uk
+  stratum: 2
+  location: UK
+  owner: University of Cambridge, University Information Services (UIS)
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: nts.dogporkcow.com
+  stratum: 2
+  location: US
+  owner: dogporkcow
+  notes: US East
+  vm: true
+
+- hostname: nts.amethyst.name
+  stratum: 2
+  location: US
+  owner: Naomi Persephone Amethyst (AS53546)
+  notes: Raleigh, NC
+  vm: false
+
+- hostname: '[ntp-us.aki.quest](https://ntp-us.aki.quest)'
+  stratum: 2
+  location: US
+  owner: aki
+  notes: Phoenix, IPv4 and IPv6
+  vm: true
+
+- hostname: ntp1.glypnod.com
+  stratum: 2
+  location: US
+  owner: Hal Murray
+  notes: San Francisco
+  vm: false
+
+- hostname: ohio.time.system76.com
+  stratum: 2
+  location: US
+  owner: System76
+  vm: false
+
+- hostname: oregon.time.system76.com
+  stratum: 2
+  location: US
+  owner: System76
+  vm: false
+
+- hostname: virginia.time.system76.com
+  stratum: 2
+  location: US
+  owner: System76
+  vm: false
+
+- hostname: '[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)'
+  stratum: 1
+  location: US
+  owner: Mike Cifelli
+  vm: false
+
+- hostname: '[time-gps.globalentry.systems](https://time.globalentry.systems)'
+  stratum: 2
+  location: US
+  owner: Global Entry Systems
+  notes: Colorado. GPS/PPS stratum 1 upstream
+  vm: false
+
+- hostname: '[time.cifelli.xyz](https://time.cifelli.xyz)'
+  stratum: 2
+  location: US
+  owner: Mike Cifelli
+  vm: false
+
+- hostname: '[time.globalentry.systems](https://time.globalentry.systems)'
+  stratum: 2
+  location: US
+  owner: Global Entry Systems
+  notes: Chicago
+  vm: true
+
+- hostname: time.sshlab.net
+  stratum: 2
+  location: US
+  owner: Z&D
+  notes: Pennsylvania, NIST/USNO upstream
+  vm: false
+
+- hostname: '[time.txryan.com](https://time.txryan.com)'
+  stratum: 2
+  location: US
+  owner: Tanner Ryan
+  vm: false
+
+- hostname: ntp.viarouge.net
+  stratum: 2
+  location: France
+  owner: Hubert Viarouge
+  vm: true
+
+- hostname: '[time.xargs.org](https://time.xargs.org)'
+  stratum: 3
+  location: US
+  owner: Michael Driscoll
+  notes: IPv4 and IPv6
+  vm: true
+
+- hostname: '[ntp1.wiktel.com](https://ntp1.wiktel.com)'
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: IPv4 and IPv6
+  vm: false
+
+- hostname: '[ntp2.wiktel.com](https://ntp2.wiktel.com)'
+  stratum: 1
+  location: US
+  owner: Wikstrom Telephone Company
+  notes: IPv4 and IPv6
+  vm: false
