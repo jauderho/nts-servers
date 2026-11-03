@@ -125,6 +125,14 @@ address = "ntp.obspm.fr"
 mode = "nts"
 address = "paris.time.system76.com"
 
+[[source]]
+mode = "nts"
+address = "ntp-0-gps-hq.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp-0-gnss-hq.rdem-systems.com"
+
 
 # Germany
 [[source]]
@@ -138,6 +146,10 @@ address = "ntp3.ipv6.fau.de"
 [[source]]
 mode = "nts"
 address = "ntp7.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp13.rdem-systems.com"
 
 [[source]]
 mode = "nts"
@@ -404,6 +416,18 @@ address = "ntp11.rdem-systems.com"
 [[source]]
 mode = "nts"
 address = "ntp12.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp14.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp15.rdem-systems.com"
+
+[[source]]
+mode = "nts"
+address = "ntp16.rdem-systems.com"
 
 [[source]]
 mode = "nts"
