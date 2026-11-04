@@ -84,9 +84,9 @@ servers:
   vm: false
 
 - hostname: time.bolha.one
-  stratum: 2
+  stratum: 1
   location: Brazil
-  owner: Cadu Silva
+  owner: '[Bolhinha](https://info.bolha.one/servicos/ntp/)'
   vm: false
 
 - hostname: '[time1.mbix.ca](https://time1.mbix.ca)'

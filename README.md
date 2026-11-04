@@ -47,7 +47,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |d.st1.ntp.br|2|Brazil|[ntp.br](https://ntp.br)||
 |gps.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |brazil.time.system76.com|2|Brazil|System76||
-|time.bolha.one|2|Brazil|Cadu Silva||
+|time.bolha.one|1|Brazil|[Bolhinha](https://info.bolha.one/servicos/ntp/)||
 ||
 |[time1.mbix.ca](https://time1.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
 |[time2.mbix.ca](https://time2.mbix.ca)|1|Canada|Manitoba Internet Exchange|IPv4 and IPv6|
