@@ -66,10 +66,13 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)|2|France|Paris Observatory||
 |paris.time.system76.com|2|France|System76||
+|ntp-0-gps-hq.rdem-systems.com|1|France|[RDEM Systems](https://www.rdem-systems.com)|GPS, IPv6 only (IPv4 via ntp-0-hq.rdem-systems.com)|
+|ntp-0-gnss-hq.rdem-systems.com|1|France|[RDEM Systems](https://www.rdem-systems.com)|GNSS (Galileo, GLONASS), IPv6 only (IPv4 via ntp-0-hq.rdem-systems.com)|
 ||
 |ntp3.fau.de|1|Germany|FAU||
 |ntp3.ipv6.fau.de|1|Germany|FAU|IPv6 only|
 |ntp7.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
+|ntp13.rdem-systems.com|2|Germany|[RDEM Systems](https://www.rdem-systems.com)|Frankfurt area, IPv4 and IPv6|
 |ptbtime1.ptb.de|1|Germany|PTB||
 |ptbtime2.ptb.de|1|Germany|PTB||
 |ptbtime3.ptb.de|1|Germany|PTB||
@@ -145,6 +148,9 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp10.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
 |ntp11.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|TH2 Paris, IPv4 and IPv6|
 |ntp12.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lauterbourg, IPv4 and IPv6|
+|ntp14.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Lyon, IPv4 and IPv6|
+|ntp15.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Valence, IPv4 and IPv6|
+|ntp16.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Paris, IPv4 and IPv6|
 |ntp2.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
 |ntp3.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|
 |ntp4.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA3, IPv4 and IPv6|

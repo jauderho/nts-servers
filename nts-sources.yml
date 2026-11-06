@@ -244,6 +244,41 @@ servers:
   notes: "Lauterbourg, IPv4 and IPv6"
   vm: true
 
+- hostname: ntp14.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Lyon, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp15.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Valence, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp16.rdem-systems.com
+  stratum: 2
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Paris, IPv4 and IPv6"
+  vm: true
+
+- hostname: ntp-0-gps-hq.rdem-systems.com
+  stratum: 1
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "GPS, IPv6 only (IPv4 via ntp-0-hq.rdem-systems.com)"
+  vm: false
+
+- hostname: ntp-0-gnss-hq.rdem-systems.com
+  stratum: 1
+  location: France
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "GNSS (Galileo, GLONASS), IPv6 only (IPv4 via ntp-0-hq.rdem-systems.com)"
+  vm: false
+
 - hostname: ntp3.fau.de
   stratum: 1
   location: Germany
@@ -258,6 +293,13 @@ servers:
   vm: false
 
 - hostname: ntp7.rdem-systems.com
+  stratum: 2
+  location: Germany
+  owner: "[RDEM Systems](https://www.rdem-systems.com)"
+  notes: "Frankfurt area, IPv4 and IPv6"
+  vm: false
+
+- hostname: ntp13.rdem-systems.com
   stratum: 2
   location: Germany
   owner: "[RDEM Systems](https://www.rdem-systems.com)"
