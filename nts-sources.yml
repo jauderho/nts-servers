@@ -349,11 +349,11 @@ servers:
   notes: IPv4 and IPv6
   vm: false
 
-- hostname: '[ntp-jp.aki.quest](https://ntp-jp.aki.quest)'
+- hostname: '[ntp-jp.aki.sh](https://ntp-jp.aki.sh)'
   stratum: 2
   location: Japan
   owner: aki
-  notes: Osaka, IPv4
+  notes: Osaka, IPv4 and IPv6
   vm: true
 
 - hostname: 1.nts.nothingtohide.nl
@@ -424,11 +424,11 @@ servers:
   owner: '[B4CKSP4CE](https://bksp.in)'
   vm: false
 
-- hostname: '[ntp-sg.aki.quest](https://ntp-sg.aki.quest)'
+- hostname: '[ntp-sg.aki.sh](https://ntp-sg.aki.sh)'
   stratum: 2
   location: Singapore
   owner: aki
-  notes: IPv4
+  notes: IPv4 and IPv6
   vm: true
 
 - hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
@@ -645,7 +645,7 @@ servers:
   notes: Raleigh, NC
   vm: false
 
-- hostname: '[ntp-us.aki.quest](https://ntp-us.aki.quest)'
+- hostname: '[ntp-us.aki.sh](https://ntp-us.aki.sh)'
   stratum: 2
   location: US
   owner: aki
