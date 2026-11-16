@@ -353,7 +353,7 @@ servers:
   stratum: 2
   location: Japan
   owner: aki
-  notes: Osaka, IPv4
+  notes: Osaka, IPv4 and IPv6
   vm: true
 
 - hostname: 1.nts.nothingtohide.nl
@@ -428,7 +428,7 @@ servers:
   stratum: 2
   location: Singapore
   owner: aki
-  notes: IPv4
+  notes: IPv4 and IPv6
   vm: true
 
 - hostname: '[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)'
