@@ -459,11 +459,11 @@ address = "ntp9.rdem-systems.com"
 
 [[source]]
 mode = "nts"
-address = "ntp-jp.aki.quest"
+address = "ntp-jp.aki.sh"
 
 [[source]]
 mode = "nts"
-address = "ntp-sg.aki.quest"
+address = "ntp-sg.aki.sh"
 
 [[source]]
 mode = "nts"
@@ -475,7 +475,7 @@ address = "beatquantum.com"
 
 [[source]]
 mode = "nts"
-address = "ntp-us.aki.quest"
+address = "ntp-us.aki.sh"
 
 [[source]]
 mode = "nts"
