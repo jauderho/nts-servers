@@ -33,6 +33,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |---|:---:|---|---|---|
 |time.cloudflare.com|3|All|Cloudflare|Anycast|
 |any.time.nl|2|All|[TimeNL](https://nts.time.nl)|Anycast|
+|nts.meta.com|1|All|Meta|Anycast|
 ||
 |1.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|
 |2.ntp.ubuntu.com|2|Distro|Ubuntu|Distro use only|

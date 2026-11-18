@@ -11,6 +11,10 @@ address = "time.cloudflare.com"
 mode = "nts"
 address = "any.time.nl"
 
+[[source]]
+mode = "nts"
+address = "nts.meta.com"
+
 
 # Distro
 [[source]]
