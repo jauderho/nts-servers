@@ -315,10 +315,6 @@ address = "ntp02.maillink.ch"
 mode = "nts"
 address = "ntp03.maillink.ch"
 
-[[source]]
-mode = "nts"
-address = "time.signorini.ch"
-
 
 # UK
 [[source]]
