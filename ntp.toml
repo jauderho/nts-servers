@@ -459,6 +459,10 @@ address = "ntp9.rdem-systems.com"
 
 [[source]]
 mode = "nts"
+address = "time.tidepeers.org"
+
+[[source]]
+mode = "nts"
 address = "ntp-jp.aki.sh"
 
 [[source]]
