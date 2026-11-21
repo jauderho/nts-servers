@@ -360,7 +360,7 @@ servers:
   stratum: 4
   location: Hungary
   owner: tidepeers
-  notes: "Budapest, IPv4 and IPv6, also in pool.ntp.org"
+  notes: "Budapest, IPv4 and IPv6"
   vm: true
 
 - hostname: '[ntp-jp.aki.sh](https://ntp-jp.aki.sh)'
