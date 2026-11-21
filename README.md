@@ -9,6 +9,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 
 ## Contribute
 - Pull requests are welcome to add new sources ([signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) are preferred)
+- Commits must include a Signed-off-by line (DCO). Use git commit -s. This is separate from signing commits.
 - PR will not be merged until connectivity to server can be verified. Scripts are available in the `scripts/` subfolder to assist with this
 - New entries should be grouped by location then in alphabetical order
 - Please specify if server is virtualized
