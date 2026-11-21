@@ -73,7 +73,7 @@ servers:
   vm: false
 
 - hostname: d.st1.ntp.br
-  stratum: 2
+  stratum: 1
   location: Brazil
   owner: '[ntp.br](https://ntp.br)'
   vm: false
@@ -157,7 +157,7 @@ servers:
   vm: false
 
 - hostname: ntp.miuku.net
-  stratum: 3
+  stratum: 2
   location: Finland
   owner: miuku.net
   vm: false
@@ -426,7 +426,7 @@ servers:
   vm: false
 
 - hostname: '[0.ntp.bksp.in](https://0.ntp.bksp.in)'
-  stratum: 1
+  stratum: 2
   location: Russia
   owner: '[B4CKSP4CE](https://bksp.in)'
   vm: false
@@ -535,7 +535,7 @@ servers:
   vm: false
 
 - hostname: '[ntp.3eck.net](https://ntp.3eck.net)'
-  stratum: 3
+  stratum: 2
   location: Switzerland
   owner: Adrian Zaugg
   vm: false
@@ -575,12 +575,6 @@ servers:
   location: Switzerland
   owner: stellata.ch
   vm: true
-
-- hostname: time.signorini.ch
-  stratum: 1
-  location: Switzerland
-  owner: Attilio Signorini
-  vm: false
 
 - hostname: beatquantum.com
   stratum: 2
@@ -628,7 +622,7 @@ servers:
   stratum: 2
   location: UK
   owner: University of Cambridge, Department of Engineering
-  notes: IPv4 and IPv6
+  notes: IPv4
   vm: false
 
 - hostname: ntp3.cam.ac.uk
@@ -730,7 +724,7 @@ servers:
   vm: true
 
 - hostname: '[time.xargs.org](https://time.xargs.org)'
-  stratum: 3
+  stratum: 2
   location: US
   owner: Michael Driscoll
   notes: IPv4 and IPv6

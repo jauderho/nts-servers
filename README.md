@@ -45,7 +45,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |a.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |b.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |c.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
-|d.st1.ntp.br|2|Brazil|[ntp.br](https://ntp.br)||
+|d.st1.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |gps.ntp.br|1|Brazil|[ntp.br](https://ntp.br)||
 |brazil.time.system76.com|2|Brazil|System76||
 |time.bolha.one|1|Brazil|[Bolhinha](https://info.bolha.one/servicos/ntp/)||
@@ -63,7 +63,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 ||
 |[time.cincura.net](https://time.cincura.net)|1|Czech Republic|Jiří Činčura|IPv4 and IPv6|
 ||
-|ntp.miuku.net|3|Finland|miuku.net||
+|ntp.miuku.net|2|Finland|miuku.net||
 ||
 |[ntp.obspm.fr](https://syrte.obspm.fr/spip/fr/services/ref-temps/article/diffusion-de-l-heure-par-internet-ntp-network-time-protocol.html)|2|France|Paris Observatory||
 |paris.time.system76.com|2|France|System76||
@@ -92,7 +92,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ntppool4.time.nl|1|Netherlands|[TimeNL](https://nts.time.nl)|Part of ntspool.time.nl|
 |nts.decepticon.space|1|Netherlands|Rick Betting||
 ||
-|[0.ntp.bksp.in](https://0.ntp.bksp.in)|1|Russia|[B4CKSP4CE](https://bksp.in)||
+|[0.ntp.bksp.in](https://0.ntp.bksp.in)|2|Russia|[B4CKSP4CE](https://bksp.in)||
 ||
 |[ntpmon.dcs1.biz](https://ntpmon.dcs1.biz)|3|Singapore|Sanjeev Gupta||
 ||
@@ -111,20 +111,19 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |svl2.nts.netnod.se|1|Sweden|Netnod|For users near Sundsvall|
 ||
 |mirror.mdapi.ch|1|Switzerland|Martino Dell'Ambrogio||
-|[ntp.3eck.net](https://ntp.3eck.net)|3|Switzerland|Adrian Zaugg||
+|[ntp.3eck.net](https://ntp.3eck.net)|2|Switzerland|Adrian Zaugg||
 |[ntp.trifence.ch](https://ntp.trifence.ch)|2|Switzerland|Marcel Waldvogel||
 |[ntp.zeitgitter.net](https://ntp.zeitgitter.net)|2|Switzerland|Marcel Waldvogel||
 |[ntp01.maillink.ch](https://ntp01.maillink.ch)|1|Switzerland|Ueli Heuer||
 |[ntp02.maillink.ch](https://ntp02.maillink.ch)|1|Switzerland|Ueli Heuer||
 |[ntp03.maillink.ch](https://ntp03.maillink.ch)|1|Switzerland|Ueli Heuer||
-|time.signorini.ch|1|Switzerland|Attilio Signorini||
 ||
 |ntp2.glypnod.com|2|UK|Hal Murray|London|
 |ntp1.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
 |ntp2.dmz.terryburton.co.uk|1|UK|Terry Burton|IPv4 and IPv6|
 |ntp0.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
 |ntp1.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
-|ntp2.cam.ac.uk|2|UK|University of Cambridge, Department of Engineering|IPv4 and IPv6|
+|ntp2.cam.ac.uk|2|UK|University of Cambridge, Department of Engineering|IPv4|
 |ntp3.cam.ac.uk|2|UK|University of Cambridge, University Information Services (UIS)|IPv4 and IPv6|
 ||
 |nts.amethyst.name|2|US|Naomi Persephone Amethyst (AS53546)|Raleigh, NC|
@@ -166,7 +165,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |[ntp-us.aki.sh](https://ntp-us.aki.sh)|2|US|aki|Phoenix, IPv4 and IPv6|
 |nts.dogporkcow.com|2|US|dogporkcow|US East|
 |[time.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Chicago|
-|[time.xargs.org](https://time.xargs.org)|3|US|Michael Driscoll|IPv4 and IPv6|
+|[time.xargs.org](https://time.xargs.org)|2|US|Michael Driscoll|IPv4 and IPv6|
 
 ## Star History
 <a href="https://star-history.com/#jauderho/nts-servers&Timeline">
