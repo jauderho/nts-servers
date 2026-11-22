@@ -164,7 +164,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |[ntp-sg.aki.sh](https://ntp-sg.aki.sh)|2|Singapore|aki|IPv4 and IPv6|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
 |beatquantum.com|2|UK|BeatQuantum|IPv4 and IPv6, Pure/Hybrid PQC NTS-KE|
-|ntp-01.jeffgeerling.com|2|US|Jeff Geerling|St. Louis, MO. IPv4 only. Synced to a GNSS-disciplined stratum 1|
+|[ntp-01.jeffgeerling.com](https://time.jeffgeerling.com)|2|US|Jeff Geerling|St. Louis, IPv4 only|
 |[ntp-us.aki.sh](https://ntp-us.aki.sh)|2|US|aki|Phoenix, IPv4 and IPv6|
 |nts.dogporkcow.com|2|US|dogporkcow|US East|
 |[time.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Chicago|
