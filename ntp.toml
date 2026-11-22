@@ -479,6 +479,10 @@ address = "beatquantum.com"
 
 [[source]]
 mode = "nts"
+address = "ntp-01.jeffgeerling.com"
+
+[[source]]
+mode = "nts"
 address = "ntp-us.aki.sh"
 
 [[source]]

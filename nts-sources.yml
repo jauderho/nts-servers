@@ -704,6 +704,13 @@ servers:
   owner: Mike Cifelli
   vm: false
 
+- hostname: ntp-01.jeffgeerling.com
+  stratum: 2
+  location: US
+  owner: Jeff Geerling
+  notes: St. Louis, MO. IPv4 only. Synced to a GNSS-disciplined stratum 1
+  vm: true
+
 - hostname: '[time.globalentry.systems](https://time.globalentry.systems)'
   stratum: 2
   location: US
