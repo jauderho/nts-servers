@@ -159,6 +159,7 @@ The following servers are known to be virtualized and may be less accurate. YMMV
 |ntp6.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp8.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA5, IPv4 and IPv6|
 |ntp9.rdem-systems.com|2|France|[RDEM Systems](https://www.rdem-systems.com)|Equinix PA4, IPv4 and IPv6|
+|time.tidepeers.org|4|Hungary|tidepeers|Budapest, IPv4 and IPv6|
 |[ntp-jp.aki.sh](https://ntp-jp.aki.sh)|2|Japan|aki|Osaka, IPv4 and IPv6|
 |[ntp-sg.aki.sh](https://ntp-sg.aki.sh)|2|Singapore|aki|IPv4 and IPv6|
 |solarium.stellata.ch|2|Switzerland|stellata.ch||
