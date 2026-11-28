@@ -369,6 +369,10 @@ address = "virginia.time.system76.com"
 
 [[source]]
 mode = "nts"
+address = "quicktime.quickok.net"
+
+[[source]]
+mode = "nts"
 address = "stratum1.time.cifelli.xyz"
 
 [[source]]

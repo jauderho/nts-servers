@@ -685,6 +685,13 @@ servers:
   owner: System76
   vm: false
 
+- hostname: quicktime.quickok.net
+  stratum: 1
+  location: US
+  owner: QuickOK
+  notes: GNSS (Meinberg), IPv4
+  vm: false
+
 - hostname: '[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)'
   stratum: 1
   location: US
