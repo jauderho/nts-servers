@@ -337,6 +337,13 @@ servers:
   owner: PTB
   vm: false
 
+- hostname: time.mediaarchitectu.re
+  stratum: 2
+  location: Germany
+  owner: simontretter
+  notes: "IPv4 and IPv6"
+  vm: true
+
 - hostname: '[www.jabber-germany.de](https://www.jabber-germany.de)'
   stratum: 2
   location: Germany
