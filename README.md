@@ -132,6 +132,7 @@ This is intended to bootstrap a list of NTP servers with NTS support given that 
 |ohio.time.system76.com|2|US|System76||
 |oregon.time.system76.com|2|US|System76||
 |virginia.time.system76.com|2|US|System76||
+|quicktime.quickok.net|1|US|QuickOK|GNSS (Meinberg), IPv4|
 |[stratum1.time.cifelli.xyz](https://stratum1.time.cifelli.xyz)|1|US|Mike Cifelli||
 |[time-gps.globalentry.systems](https://time.globalentry.systems)|2|US|Global Entry Systems|Colorado. GPS/PPS stratum 1 upstream|
 |[time.cifelli.xyz](https://time.cifelli.xyz)|2|US|Mike Cifelli||
